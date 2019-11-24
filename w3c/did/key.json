@@ -1,0 +1,1605 @@
+{
+    "map": {
+        "@_version": "freeplane 1.7.0",
+        "node": {
+            "@_TEXT": "key",
+            "@_FOLDED": false,
+            "@_ID": "ID_1831615648",
+            "@_CREATED": 1569272472516,
+            "@_MODIFIED": 1574595929627,
+            "@_ICON_SIZE": "20.0 pt",
+            "@_LINK": "index.mm",
+            "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "bookmark"
+            },
+            "font": {
+                "@_SIZE": 18
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 6,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "node": [
+                {
+                    "@_TEXT": "Summary",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1226961462",
+                    "@_CREATED": 1570979963389,
+                    "@_MODIFIED": 1570980209554,
+                    "@_COLOR": "#3333ff",
+                    "icon": {
+                        "@_BUILTIN": "wizard"
+                    },
+                    "font": {
+                        "@_SIZE": 11,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#0000ff"
+                    },
+                    "node": {
+                        "@_TEXT": "he did:key method, the operations it supports, and some security and privacy considerations that implementers might want to be aware of when implementing",
+                        "@_ID": "ID_1311877564",
+                        "@_CREATED": 1574530845000,
+                        "@_MODIFIED": 1574530845000
+                    }
+                },
+                {
+                    "@_TEXT": "Example",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_120250381",
+                    "@_CREATED": 1570979967089,
+                    "@_MODIFIED": 1574530901397,
+                    "icon": {
+                        "@_BUILTIN": "list"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00ff00"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+                            "@_ID": "ID_985403617",
+                            "@_CREATED": 1574530820944,
+                            "@_MODIFIED": 1574530820944
+                        },
+                        {
+                            "@_ID": "ID_1599415660",
+                            "@_CREATED": 1574531013483,
+                            "@_MODIFIED": 1574531013483,
+                            "@_LINK": "https://w3id.org/did/v1&amp;quot;",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "span": [
+                                            {
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": "{",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;https://w3id.org/did/v1&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": ",",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": ",",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": ",",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;Ed25519VerificationKey2018&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": ",",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": ",",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;B12NYF8RrR3h41TDCTJojY59usg3mbtbjnFs7Eud1Y6u&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": "}],",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": "],",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": "],",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": "],",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": "],",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#kakey&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": ",",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;X25519KeyAgreementKey2019&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": ",",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": ",",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_class": "hljs-string",
+                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                "font": {
+                                                    "#text": "&quot;JhNWeSVLMYccCk7iopQW4guaSJTojqpMEELgSLhKwRr&quot;",
+                                                    "@_color": "rgb(221, 17, 68)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            },
+                                            {
+                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                "font": {
+                                                    "#text": "}] }",
+                                                    "@_color": "rgb(51, 51, 51)",
+                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                    "@_size": "14.4px"
+                                                }
+                                            }
+                                        ],
+                                        "font": [
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;@context&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ":",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;id&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ":",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;publicKey&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ": [{",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    },
+                                                    {
+                                                        "#text": "&quot;id&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ":",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;type&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ":",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;controller&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ":",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;publicKeyBase58&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ":",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;authentication&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ": [",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;assertionMethod&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ": [",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;capabilityDelegation&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ": [",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;capabilityInvocation&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ": [",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;keyAgreement&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ": [{",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    },
+                                                    {
+                                                        "#text": "&quot;id&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ":",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;type&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ":",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;controller&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ":",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "@_color": "rgb(51, 51, 51)",
+                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                "@_size": "14.4px",
+                                                "span": [
+                                                    {
+                                                        "#text": "&quot;publicKeyBase58&quot;",
+                                                        "@_class": "hljs-attr",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                    },
+                                                    {
+                                                        "#text": ":",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "Discussion",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_387619455",
+                    "@_CREATED": 1574595946140,
+                    "@_MODIFIED": 1574595950285,
+                    "edge": {
+                        "@_COLOR": "#7c0000"
+                    },
+                    "node": {
+                        "@_TEXT": "ML",
+                        "@_ID": "ID_142448183",
+                        "@_CREATED": 1574596208921,
+                        "@_MODIFIED": 1574596210865,
+                        "node": {
+                            "@_TEXT": "Clarify syntax and predicates",
+                            "@_ID": "ID_1424305860",
+                            "@_CREATED": 1574596211988,
+                            "@_MODIFIED": 1574596226115,
+                            "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0099.html"
+                        }
+                    }
+                },
+                {
+                    "@_TEXT": "links",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_808607355",
+                    "@_CREATED": 1570968728188,
+                    "@_MODIFIED": 1570968728190,
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": {
+                        "@_ID": "ID_1230045352",
+                        "@_CREATED": 1574530793721,
+                        "@_MODIFIED": 1574530793721,
+                        "@_LINK": "https://digitalbazaar.github.io/did-method-key/#the-did-key-format",
+                        "richcontent": {
+                            "@_TYPE": "NODE",
+                            "html": {
+                                "head": "",
+                                "body": {
+                                    "a": {
+                                        "#text": "https://digitalbazaar.github.io/did-method-key/#the-did-key-format",
+                                        "@_http-equiv": "content-type",
+                                        "@_content": "text/html; charset=utf-8",
+                                        "@_href": "https://digitalbazaar.github.io/did-method-key/#the-did-key-format"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1100215200",
+                    "@_CREATED": 1570969039178,
+                    "@_MODIFIED": 1570980265221,
+                    "icon": {
+                        "@_BUILTIN": "folder"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "node": {
+                        "@_TEXT": "mailing list",
+                        "@_ID": "ID_307060603",
+                        "@_CREATED": 1574596268933,
+                        "@_MODIFIED": 1574596274510,
+                        "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html"
+                    }
+                },
+                {
+                    "@_TEXT": "tags",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_466759422",
+                    "@_CREATED": 1570968754383,
+                    "@_MODIFIED": 1571340239144,
+                    "icon": {
+                        "@_BUILTIN": "hashtag"
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    }
+                },
+                {
+                    "@_TEXT": "Concerns",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1414960960",
+                    "@_CREATED": 1570968728177,
+                    "@_MODIFIED": 1574530860823,
+                    "icon": {
+                        "@_BUILTIN": "yes"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff0000"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "document / identifier issue",
+                            "@_ID": "ID_1425020605",
+                            "@_CREATED": 1574530866726,
+                            "@_MODIFIED": 1574595990473,
+                            "node": [
+                                {
+                                    "@_TEXT": "items regarding the document and key can be conflated",
+                                    "@_ID": "ID_890623481",
+                                    "@_CREATED": 1574530903953,
+                                    "@_MODIFIED": 1574530919043
+                                },
+                                {
+                                    "@_TEXT": "eg expiry, does the key expire or document exire",
+                                    "@_ID": "ID_67185380",
+                                    "@_CREATED": 1574530920338,
+                                    "@_MODIFIED": 1574530940521
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "relies on w3id.org",
+                            "@_ID": "ID_454102209",
+                            "@_CREATED": 1574530945679,
+                            "@_MODIFIED": 1574530951627,
+                            "node": {
+                                "@_TEXT": "which relies of HTTP(S) / DNS",
+                                "@_ID": "ID_1105252661",
+                                "@_CREATED": 1574530952494,
+                                "@_MODIFIED": 1574530974221,
+                                "node": {
+                                    "@_TEXT": "centralization",
+                                    "@_ID": "ID_377528786",
+                                    "@_CREATED": 1574530942150,
+                                    "@_MODIFIED": 1574530944679
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "claims",
+                            "@_ID": "ID_1039236328",
+                            "@_CREATED": 1574530989571,
+                            "@_MODIFIED": 1574531029382,
+                            "node": [
+                                {
+                                    "@_TEXT": "simplest possible implementation of a DID Method",
+                                    "@_ID": "ID_1634354247",
+                                    "@_CREATED": 1574530997703,
+                                    "@_MODIFIED": 1574531002104,
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
+                                },
+                                {
+                                    "@_ID": "ID_1400816661",
+                                    "@_CREATED": 1574531013483,
+                                    "@_MODIFIED": 1574531013483,
+                                    "@_LINK": "https://w3id.org/did/v1&amp;quot;",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "span": [
+                                                    {
+                                                        "@_http-equiv": "content-type",
+                                                        "@_content": "text/html; charset=utf-8",
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": "{",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;https://w3id.org/did/v1&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": ",",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": ",",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": ",",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;Ed25519VerificationKey2018&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": ",",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": ",",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;B12NYF8RrR3h41TDCTJojY59usg3mbtbjnFs7Eud1Y6u&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": "}],",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": "],",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": "],",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": "],",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": "],",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#kakey&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": ",",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;X25519KeyAgreementKey2019&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": ",",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": ",",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_class": "hljs-string",
+                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
+                                                        "font": {
+                                                            "#text": "&quot;JhNWeSVLMYccCk7iopQW4guaSJTojqpMEELgSLhKwRr&quot;",
+                                                            "@_color": "rgb(221, 17, 68)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
+                                                        "font": {
+                                                            "#text": "}] }",
+                                                            "@_color": "rgb(51, 51, 51)",
+                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                            "@_size": "14.4px"
+                                                        }
+                                                    }
+                                                ],
+                                                "font": [
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;@context&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ":",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;id&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ":",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;publicKey&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ": [{",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            },
+                                                            {
+                                                                "#text": "&quot;id&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ":",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;type&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ":",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;controller&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ":",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;publicKeyBase58&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ":",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;authentication&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ": [",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;assertionMethod&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ": [",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;capabilityDelegation&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ": [",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;capabilityInvocation&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ": [",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;keyAgreement&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ": [{",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            },
+                                                            {
+                                                                "#text": "&quot;id&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ":",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;type&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ":",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;controller&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ":",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "@_color": "rgb(51, 51, 51)",
+                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
+                                                        "@_size": "14.4px",
+                                                        "span": [
+                                                            {
+                                                                "#text": "&quot;publicKeyBase58&quot;",
+                                                                "@_class": "hljs-attr",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
+                                                            },
+                                                            {
+                                                                "#text": ":",
+                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "This seems far from simple",
+                                    "@_ID": "ID_1386411919",
+                                    "@_CREATED": 1574531016893,
+                                    "@_MODIFIED": 1574595961528,
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "relies on particular ontologies",
+                            "@_ID": "ID_573143043",
+                            "@_CREATED": 1574531046917,
+                            "@_MODIFIED": 1574531052550,
+                            "node": [
+                                {
+                                    "@_TEXT": "with specific years",
+                                    "@_ID": "ID_171664408",
+                                    "@_CREATED": 1574531053431,
+                                    "@_MODIFIED": 1574596035546
+                                },
+                                {
+                                    "@_TEXT": "requires upgrade path",
+                                    "@_ID": "ID_701528799",
+                                    "@_CREATED": 1574531062368,
+                                    "@_MODIFIED": 1574596050525
+                                },
+                                {
+                                    "@_TEXT": "requires caching strategy",
+                                    "@_ID": "ID_353956509",
+                                    "@_CREATED": 1574596051720,
+                                    "@_MODIFIED": 1574596056296
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "doesnt allow other RDF",
+                            "@_ID": "ID_1847577386",
+                            "@_CREATED": 1574531070291,
+                            "@_MODIFIED": 1574531075678,
+                            "node": [
+                                {
+                                    "@_TEXT": "no support for turtle",
+                                    "@_ID": "ID_1856495763",
+                                    "@_CREATED": 1574531076687,
+                                    "@_MODIFIED": 1574531080668
+                                },
+                                {
+                                    "@_TEXT": "conneg in impractical",
+                                    "@_ID": "ID_1836023449",
+                                    "@_CREATED": 1574531081433,
+                                    "@_MODIFIED": 1574531094419
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "no inline prefixes",
+                            "@_ID": "ID_1299284769",
+                            "@_CREATED": 1574531103932,
+                            "@_MODIFIED": 1574531107785,
+                            "node": [
+                                {
+                                    "@_TEXT": "requires an async fetch to get the prefixes",
+                                    "@_ID": "ID_1826929562",
+                                    "@_CREATED": 1574531108776,
+                                    "@_MODIFIED": 1574531117523
+                                },
+                                {
+                                    "@_TEXT": "could be fixed by inlining prefixes",
+                                    "@_ID": "ID_1084449423",
+                                    "@_CREATED": 1574531118345,
+                                    "@_MODIFIED": 1574531127058,
+                                    "node": {
+                                        "@_TEXT": "again forbidden",
+                                        "@_ID": "ID_844246524",
+                                        "@_CREATED": 1574531127951,
+                                        "@_MODIFIED": 1574531132567
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "is async",
+                            "@_ID": "ID_228449059",
+                            "@_CREATED": 1574596069193,
+                            "@_MODIFIED": 1574596072388,
+                            "node": [
+                                {
+                                    "@_TEXT": "turtle is sync",
+                                    "@_ID": "ID_466612470",
+                                    "@_CREATED": 1574596073407,
+                                    "@_MODIFIED": 1574596076882
+                                },
+                                {
+                                    "@_TEXT": "creates larger attack surface",
+                                    "@_ID": "ID_240096141",
+                                    "@_CREATED": 1574596079281,
+                                    "@_MODIFIED": 1574596086292
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "in progress",
+                            "@_ID": "ID_945601853",
+                            "@_CREATED": 1574596243921,
+                            "@_MODIFIED": 1574596250216,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "terms not defined",
+                                "@_ID": "ID_547672658",
+                                "@_CREATED": 1574596088327,
+                                "@_MODIFIED": 1574596091931,
+                                "node": {
+                                    "@_TEXT": "waiting on clarification",
+                                    "@_ID": "ID_36723109",
+                                    "@_CREATED": 1574596232693,
+                                    "@_MODIFIED": 1574596238111
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

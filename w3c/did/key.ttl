@@ -1,0 +1,55 @@
+<#ID_1226961462> <urn:string:@_TEXT> """Summary""" .
+<#ID_120250381> <urn:string:@_TEXT> """Example""" .
+<#ID_985403617> <urn:string:@_TEXT> """did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH""" .
+<#ID_985403617> <urn:string:child> <ID_985403617> .
+<#ID_1599415660> <urn:string:@_TEXT> """undefined""" .
+<#ID_1599415660> <urn:string:child> <ID_1599415660> .
+<#ID_387619455> <urn:string:@_TEXT> """Discussion""" .
+<#ID_808607355> <urn:string:@_TEXT> """links""" .
+<#ID_1100215200> <urn:string:@_TEXT> """docs""" .
+<#ID_466759422> <urn:string:@_TEXT> """tags""" .
+<#ID_1414960960> <urn:string:@_TEXT> """Concerns""" .
+<#ID_1425020605> <urn:string:@_TEXT> """document / identifier issue""" .
+<#ID_1425020605> <urn:string:child> <ID_1425020605> .
+<#ID_890623481> <urn:string:@_TEXT> """items regarding the document and key can be conflated""" .
+<#ID_890623481> <urn:string:child> <ID_890623481> .
+<#ID_67185380> <urn:string:@_TEXT> """eg expiry, does the key expire or document exire""" .
+<#ID_67185380> <urn:string:child> <ID_67185380> .
+<#ID_454102209> <urn:string:@_TEXT> """relies on w3id.org""" .
+<#ID_454102209> <urn:string:child> <ID_454102209> .
+<#ID_1039236328> <urn:string:@_TEXT> """claims""" .
+<#ID_1039236328> <urn:string:child> <ID_1039236328> .
+<#ID_1634354247> <urn:string:@_TEXT> """simplest possible implementation of a DID Method""" .
+<#ID_1634354247> <urn:string:child> <ID_1634354247> .
+<#ID_1400816661> <urn:string:@_TEXT> """undefined""" .
+<#ID_1400816661> <urn:string:child> <ID_1400816661> .
+<#ID_1386411919> <urn:string:@_TEXT> """This seems far from simple""" .
+<#ID_1386411919> <urn:string:child> <ID_1386411919> .
+<#ID_573143043> <urn:string:@_TEXT> """relies on particular ontologies""" .
+<#ID_573143043> <urn:string:child> <ID_573143043> .
+<#ID_171664408> <urn:string:@_TEXT> """with specific years""" .
+<#ID_171664408> <urn:string:child> <ID_171664408> .
+<#ID_701528799> <urn:string:@_TEXT> """requires upgrade path""" .
+<#ID_701528799> <urn:string:child> <ID_701528799> .
+<#ID_353956509> <urn:string:@_TEXT> """requires caching strategy""" .
+<#ID_353956509> <urn:string:child> <ID_353956509> .
+<#ID_1847577386> <urn:string:@_TEXT> """doesnt allow other RDF""" .
+<#ID_1847577386> <urn:string:child> <ID_1847577386> .
+<#ID_1856495763> <urn:string:@_TEXT> """no support for turtle""" .
+<#ID_1856495763> <urn:string:child> <ID_1856495763> .
+<#ID_1836023449> <urn:string:@_TEXT> """conneg in impractical""" .
+<#ID_1836023449> <urn:string:child> <ID_1836023449> .
+<#ID_1299284769> <urn:string:@_TEXT> """no inline prefixes""" .
+<#ID_1299284769> <urn:string:child> <ID_1299284769> .
+<#ID_1826929562> <urn:string:@_TEXT> """requires an async fetch to get the prefixes""" .
+<#ID_1826929562> <urn:string:child> <ID_1826929562> .
+<#ID_1084449423> <urn:string:@_TEXT> """could be fixed by inlining prefixes""" .
+<#ID_1084449423> <urn:string:child> <ID_1084449423> .
+<#ID_228449059> <urn:string:@_TEXT> """is async""" .
+<#ID_228449059> <urn:string:child> <ID_228449059> .
+<#ID_466612470> <urn:string:@_TEXT> """turtle is sync""" .
+<#ID_466612470> <urn:string:child> <ID_466612470> .
+<#ID_240096141> <urn:string:@_TEXT> """creates larger attack surface""" .
+<#ID_240096141> <urn:string:child> <ID_240096141> .
+<#ID_945601853> <urn:string:@_TEXT> """in progress""" .
+<#ID_945601853> <urn:string:child> <ID_945601853> .
