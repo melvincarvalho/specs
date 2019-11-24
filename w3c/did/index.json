@@ -2,13 +2,13 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "specs",
+            "@_TEXT": "DID",
             "@_FOLDED": false,
             "@_ID": "ID_237352286",
             "@_CREATED": 1570576809840,
-            "@_MODIFIED": 1574595426404,
+            "@_MODIFIED": 1574595584471,
             "@_ICON_SIZE": "16.0 pt",
-            "@_LINK": "../tech/index.mm",
+            "@_LINK": "../index.mm",
             "@_STYLE": "oval",
             "icon": {
                 "@_BUILTIN": "wizard"
@@ -197,14 +197,13 @@
             ],
             "node": [
                 {
-                    "@_TEXT": "W3C",
+                    "@_TEXT": "Registry",
                     "@_POSITION": "right",
                     "@_ID": "ID_176155545",
                     "@_CREATED": 1572063754537,
-                    "@_MODIFIED": 1574595426401,
-                    "@_LINK": "w3c/index.mm",
-                    "@_HGAP_QUANTITY": "-85.74999702721841 pt",
-                    "@_VSHIFT_QUANTITY": "-77.24999769777065 pt",
+                    "@_MODIFIED": 1574595580683,
+                    "@_HGAP_QUANTITY": "-78.99999722838407 pt",
+                    "@_VSHIFT_QUANTITY": "-76.4999977201224 pt",
                     "@_COLOR": "#006633",
                     "icon": {
                         "@_BUILTIN": "list"
@@ -215,39 +214,16 @@
                     },
                     "edge": {
                         "@_COLOR": "#0000ff"
-                    },
-                    "node": [
-                        {
-                            "@_TEXT": "Native File System",
-                            "@_ID": "ID_1944964332",
-                            "@_CREATED": 1573041667364,
-                            "@_MODIFIED": 1573041678745,
-                            "@_LINK": "https://wicg.github.io/native-file-system/"
-                        },
-                        {
-                            "@_TEXT": "Web Share API",
-                            "@_ID": "ID_131281787",
-                            "@_CREATED": 1573042137566,
-                            "@_MODIFIED": 1573042142561,
-                            "@_LINK": "https://w3c.github.io/web-share/"
-                        },
-                        {
-                            "@_TEXT": "Credential Management Level 1",
-                            "@_ID": "ID_1415592675",
-                            "@_CREATED": 1573042176019,
-                            "@_MODIFIED": 1573042185242,
-                            "@_LINK": "https://www.w3.org/TR/credential-management-1/"
-                        }
-                    ]
+                    }
                 },
                 {
-                    "@_TEXT": "General",
+                    "@_TEXT": "Methods",
                     "@_POSITION": "right",
                     "@_ID": "ID_527312312",
                     "@_CREATED": 1572063758657,
-                    "@_MODIFIED": 1574594799013,
-                    "@_HGAP_QUANTITY": "48.499998971819906 pt",
-                    "@_VSHIFT_QUANTITY": "-25.4999992400408 pt",
+                    "@_MODIFIED": 1574595567705,
+                    "@_HGAP_QUANTITY": "50.74999890476468 pt",
+                    "@_VSHIFT_QUANTITY": "-10.499999687075622 pt",
                     "@_COLOR": "#000099",
                     "icon": {
                         "@_BUILTIN": "launch"
@@ -258,16 +234,23 @@
                     },
                     "edge": {
                         "@_COLOR": "#00ff00"
+                    },
+                    "node": {
+                        "@_TEXT": "key",
+                        "@_ID": "ID_1421123110",
+                        "@_CREATED": 1574595572163,
+                        "@_MODIFIED": 1574595602600,
+                        "@_LINK": "https://digitalbazaar.github.io/did-method-key/"
                     }
                 },
                 {
-                    "@_TEXT": "IETF",
+                    "@_TEXT": "Core",
                     "@_POSITION": "right",
                     "@_ID": "ID_1810859973",
                     "@_CREATED": 1572063767900,
-                    "@_MODIFIED": 1574594775107,
-                    "@_HGAP_QUANTITY": "-74.49999736249455 pt",
-                    "@_VSHIFT_QUANTITY": "62.24999814480549 pt",
+                    "@_MODIFIED": 1574595584471,
+                    "@_HGAP_QUANTITY": "-64.7499976530672 pt",
+                    "@_VSHIFT_QUANTITY": "71.24999787658459 pt",
                     "@_COLOR": "#666600",
                     "icon": {
                         "@_BUILTIN": "executable"
@@ -278,6 +261,12 @@
                     },
                     "edge": {
                         "@_COLOR": "#ff00ff"
+                    },
+                    "node": {
+                        "@_TEXT": "DID",
+                        "@_ID": "ID_236478047",
+                        "@_CREATED": 1574595405731,
+                        "@_MODIFIED": 1574595407922
                     }
                 },
                 {
@@ -296,44 +285,6 @@
                     },
                     "edge": {
                         "@_COLOR": "#00ffff"
-                    },
-                    "node": {
-                        "@_TEXT": "this page",
-                        "@_ID": "ID_117142409",
-                        "@_CREATED": 1571731629320,
-                        "@_MODIFIED": 1572498680071,
-                        "icon": {
-                            "@_BUILTIN": "bookmark"
-                        },
-                        "node": [
-                            {
-                                "@_TEXT": "json",
-                                "@_ID": "ID_485260235",
-                                "@_CREATED": 1571731633357,
-                                "@_MODIFIED": 1571731648894,
-                                "@_LINK": "index.json"
-                            },
-                            {
-                                "@_ID": "ID_1630439828",
-                                "@_CREATED": 1573154702956,
-                                "@_MODIFIED": 1573154702956,
-                                "@_LINK": "https://webmaps.io/",
-                                "richcontent": {
-                                    "@_TYPE": "NODE",
-                                    "html": {
-                                        "head": "",
-                                        "body": {
-                                            "a": {
-                                                "#text": "https://webmaps.io/",
-                                                "@_http-equiv": "content-type",
-                                                "@_content": "text/html; charset=utf-8",
-                                                "@_href": "https://webmaps.io/"
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        ]
                     }
                 }
             ]
