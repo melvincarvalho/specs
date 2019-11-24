@@ -97,7 +97,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://did-key.web.app/api/dids/did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6">https://did-key.web.app/api/dids/did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -140,48 +139,16 @@
 <node TEXT="Concerns" POSITION="left" ID="ID_1414960960" CREATED="1570968728177" MODIFIED="1574530860823">
 <icon BUILTIN="yes"/>
 <edge COLOR="#ff0000"/>
-<node TEXT="did" ID="ID_1088192854" CREATED="1574615661751" MODIFIED="1574615662824">
-<node TEXT="document / identifier issue" ID="ID_1425020605" CREATED="1574530866726" MODIFIED="1574595990473">
-<node TEXT="items regarding the document and key can be conflated" ID="ID_890623481" CREATED="1574530903953" MODIFIED="1574530919043"/>
-<node TEXT="eg expiry, does the key expire or document exire" ID="ID_67185380" CREATED="1574530920338" MODIFIED="1574530940521"/>
-</node>
-<node TEXT="relies on w3id.org" ID="ID_454102209" CREATED="1574530945679" MODIFIED="1574530951627">
-<node TEXT="which relies of HTTP(S) / DNS" ID="ID_1105252661" CREATED="1574530952494" MODIFIED="1574530974221">
-<node TEXT="centralization" ID="ID_377528786" CREATED="1574530942150" MODIFIED="1574530944679"/>
-</node>
-</node>
-<node TEXT="relies on particular ontologies" ID="ID_573143043" CREATED="1574531046917" MODIFIED="1574531052550">
-<node TEXT="with specific years" ID="ID_171664408" CREATED="1574531053431" MODIFIED="1574596035546"/>
-<node TEXT="requires upgrade path" ID="ID_701528799" CREATED="1574531062368" MODIFIED="1574596050525"/>
-<node TEXT="requires caching strategy" ID="ID_353956509" CREATED="1574596051720" MODIFIED="1574596056296"/>
-</node>
-<node TEXT="doesnt allow other RDF" ID="ID_1847577386" CREATED="1574531070291" MODIFIED="1574531075678">
-<node TEXT="no support for turtle" ID="ID_1856495763" CREATED="1574531076687" MODIFIED="1574531080668"/>
-<node TEXT="conneg in impractical" ID="ID_1836023449" CREATED="1574531081433" MODIFIED="1574531094419"/>
-</node>
-<node TEXT="no inline prefixes" ID="ID_1299284769" CREATED="1574531103932" MODIFIED="1574531107785">
-<node TEXT="requires an async fetch to get the prefixes" ID="ID_1826929562" CREATED="1574531108776" MODIFIED="1574531117523"/>
-<node TEXT="could be fixed by inlining prefixes" ID="ID_1084449423" CREATED="1574531118345" MODIFIED="1574531127058">
-<node TEXT="again forbidden" ID="ID_844246524" CREATED="1574531127951" MODIFIED="1574531132567"/>
-</node>
-</node>
-<node TEXT="is async" ID="ID_228449059" CREATED="1574596069193" MODIFIED="1574596072388">
-<node TEXT="turtle is sync" ID="ID_466612470" CREATED="1574596073407" MODIFIED="1574596076882"/>
-<node TEXT="creates larger attack surface" ID="ID_240096141" CREATED="1574596079281" MODIFIED="1574596086292"/>
-</node>
-</node>
-<node TEXT="key" ID="ID_1643072838" CREATED="1574615664050" MODIFIED="1574615665377">
 <node TEXT="claims" ID="ID_1039236328" CREATED="1574530989571" MODIFIED="1574531029382">
-<node TEXT="simplest possible implementation of a DID Method" ID="ID_1634354247" CREATED="1574530997703" MODIFIED="1574531002104">
-<font BOLD="true"/>
+<node TEXT="simplest possible implementation of a DID Method" ID="ID_1634354247" CREATED="1574530997703" MODIFIED="1574626443377">
+<font BOLD="false"/>
 </node>
-<node TEXT="This seems far from simple" ID="ID_1386411919" CREATED="1574531016893" MODIFIED="1574595961528">
-<font BOLD="true"/>
+<node TEXT="This seems far from simple" ID="ID_1386411919" CREATED="1574531016893" MODIFIED="1574626443381">
+<font BOLD="false"/>
 </node>
 </node>
-<node TEXT="what do the terms mean" ID="ID_139120582" CREATED="1574615802791" MODIFIED="1574615806633"/>
+<node TEXT="not easy to understand what predicates mean" ID="ID_139120582" CREATED="1574615802791" MODIFIED="1574626438940"/>
 <node TEXT="camelCase" ID="ID_342298248" CREATED="1574615841454" MODIFIED="1574615845461"/>
-</node>
 </node>
 </node>
 </map>

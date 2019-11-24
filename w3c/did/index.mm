@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="DID" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1574595584471" ICON_SIZE="16.0 pt" LINK="../index.mm" STYLE="oval">
+<node TEXT="DID" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1574626212972" ICON_SIZE="16.0 pt" LINK="../index.mm" STYLE="oval">
 <icon BUILTIN="wizard"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -76,7 +76,7 @@
 <edge COLOR="#00ff00"/>
 <node TEXT="key" ID="ID_1421123110" CREATED="1574595572163" MODIFIED="1574596984522" LINK="key.mm"/>
 </node>
-<node TEXT="Core" POSITION="right" ID="ID_1810859973" CREATED="1572063767900" MODIFIED="1574595584471" HGAP_QUANTITY="-64.7499976530672 pt" VSHIFT_QUANTITY="71.24999787658459 pt" COLOR="#666600">
+<node TEXT="Core" POSITION="right" ID="ID_1810859973" CREATED="1572063767900" MODIFIED="1574626212971" LINK="core.mm" HGAP_QUANTITY="-72.24999742954978 pt" VSHIFT_QUANTITY="69.74999792128807 pt" COLOR="#666600">
 <icon BUILTIN="executable"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -86,6 +86,11 @@
 <icon BUILTIN="attach"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#00ffff"/>
+<node TEXT="links" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1574626059924">
+<icon BUILTIN="attach"/>
+<node TEXT="mailing list" ID="ID_307060603" CREATED="1574596268933" MODIFIED="1574596274510" LINK="https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html"/>
+<node TEXT="did core" ID="ID_1309388462" CREATED="1574615252347" MODIFIED="1574615258291" LINK="https://w3c.github.io/did-core/"/>
+</node>
 </node>
 </node>
 </map>

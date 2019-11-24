@@ -1,0 +1,23 @@
+<#ID_777477932> <urn:string:@_TEXT> """Links""" .
+<#ID_307060603> <urn:string:@_TEXT> """mailing list""" .
+<#ID_307060603> <urn:string:child> <ID_307060603> .
+<#ID_1309388462> <urn:string:@_TEXT> """did core""" .
+<#ID_1309388462> <urn:string:child> <ID_1309388462> .
+<#ID_1414960960> <urn:string:@_TEXT> """Concerns""" .
+<#ID_1790062803> <urn:string:@_TEXT> """Spec""" .
+<#ID_1885307371> <urn:string:@_TEXT> """Introduction""" .
+<#ID_1885307371> <urn:string:child> <ID_1885307371> .
+<#ID_1939493343> <urn:string:@_TEXT> """Terminology""" .
+<#ID_1939493343> <urn:string:child> <ID_1939493343> .
+<#ID_933031085> <urn:string:@_TEXT> """Data Model""" .
+<#ID_933031085> <urn:string:child> <ID_933031085> .
+<#ID_1353904078> <urn:string:@_TEXT> """DIDs""" .
+<#ID_1353904078> <urn:string:child> <ID_1353904078> .
+<#ID_12883891> <urn:string:@_TEXT> """DID Documents""" .
+<#ID_12883891> <urn:string:child> <ID_12883891> .
+<#ID_1306846284> <urn:string:@_TEXT> """Document Syntax""" .
+<#ID_1306846284> <urn:string:child> <ID_1306846284> .
+<#ID_556800925> <urn:string:@_TEXT> """Methods""" .
+<#ID_556800925> <urn:string:child> <ID_556800925> .
+<#ID_414560688> <urn:string:@_TEXT> """Resolvers""" .
+<#ID_414560688> <urn:string:child> <ID_414560688> .

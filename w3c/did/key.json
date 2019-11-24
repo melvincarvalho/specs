@@ -504,188 +504,42 @@
                     },
                     "node": [
                         {
-                            "@_TEXT": "did",
-                            "@_ID": "ID_1088192854",
-                            "@_CREATED": 1574615661751,
-                            "@_MODIFIED": 1574615662824,
+                            "@_TEXT": "claims",
+                            "@_ID": "ID_1039236328",
+                            "@_CREATED": 1574530989571,
+                            "@_MODIFIED": 1574531029382,
                             "node": [
                                 {
-                                    "@_TEXT": "document / identifier issue",
-                                    "@_ID": "ID_1425020605",
-                                    "@_CREATED": 1574530866726,
-                                    "@_MODIFIED": 1574595990473,
-                                    "node": [
-                                        {
-                                            "@_TEXT": "items regarding the document and key can be conflated",
-                                            "@_ID": "ID_890623481",
-                                            "@_CREATED": 1574530903953,
-                                            "@_MODIFIED": 1574530919043
-                                        },
-                                        {
-                                            "@_TEXT": "eg expiry, does the key expire or document exire",
-                                            "@_ID": "ID_67185380",
-                                            "@_CREATED": 1574530920338,
-                                            "@_MODIFIED": 1574530940521
-                                        }
-                                    ]
-                                },
-                                {
-                                    "@_TEXT": "relies on w3id.org",
-                                    "@_ID": "ID_454102209",
-                                    "@_CREATED": 1574530945679,
-                                    "@_MODIFIED": 1574530951627,
-                                    "node": {
-                                        "@_TEXT": "which relies of HTTP(S) / DNS",
-                                        "@_ID": "ID_1105252661",
-                                        "@_CREATED": 1574530952494,
-                                        "@_MODIFIED": 1574530974221,
-                                        "node": {
-                                            "@_TEXT": "centralization",
-                                            "@_ID": "ID_377528786",
-                                            "@_CREATED": 1574530942150,
-                                            "@_MODIFIED": 1574530944679
-                                        }
+                                    "@_TEXT": "simplest possible implementation of a DID Method",
+                                    "@_ID": "ID_1634354247",
+                                    "@_CREATED": 1574530997703,
+                                    "@_MODIFIED": 1574626443377,
+                                    "font": {
+                                        "@_BOLD": false
                                     }
                                 },
                                 {
-                                    "@_TEXT": "relies on particular ontologies",
-                                    "@_ID": "ID_573143043",
-                                    "@_CREATED": 1574531046917,
-                                    "@_MODIFIED": 1574531052550,
-                                    "node": [
-                                        {
-                                            "@_TEXT": "with specific years",
-                                            "@_ID": "ID_171664408",
-                                            "@_CREATED": 1574531053431,
-                                            "@_MODIFIED": 1574596035546
-                                        },
-                                        {
-                                            "@_TEXT": "requires upgrade path",
-                                            "@_ID": "ID_701528799",
-                                            "@_CREATED": 1574531062368,
-                                            "@_MODIFIED": 1574596050525
-                                        },
-                                        {
-                                            "@_TEXT": "requires caching strategy",
-                                            "@_ID": "ID_353956509",
-                                            "@_CREATED": 1574596051720,
-                                            "@_MODIFIED": 1574596056296
-                                        }
-                                    ]
-                                },
-                                {
-                                    "@_TEXT": "doesnt allow other RDF",
-                                    "@_ID": "ID_1847577386",
-                                    "@_CREATED": 1574531070291,
-                                    "@_MODIFIED": 1574531075678,
-                                    "node": [
-                                        {
-                                            "@_TEXT": "no support for turtle",
-                                            "@_ID": "ID_1856495763",
-                                            "@_CREATED": 1574531076687,
-                                            "@_MODIFIED": 1574531080668
-                                        },
-                                        {
-                                            "@_TEXT": "conneg in impractical",
-                                            "@_ID": "ID_1836023449",
-                                            "@_CREATED": 1574531081433,
-                                            "@_MODIFIED": 1574531094419
-                                        }
-                                    ]
-                                },
-                                {
-                                    "@_TEXT": "no inline prefixes",
-                                    "@_ID": "ID_1299284769",
-                                    "@_CREATED": 1574531103932,
-                                    "@_MODIFIED": 1574531107785,
-                                    "node": [
-                                        {
-                                            "@_TEXT": "requires an async fetch to get the prefixes",
-                                            "@_ID": "ID_1826929562",
-                                            "@_CREATED": 1574531108776,
-                                            "@_MODIFIED": 1574531117523
-                                        },
-                                        {
-                                            "@_TEXT": "could be fixed by inlining prefixes",
-                                            "@_ID": "ID_1084449423",
-                                            "@_CREATED": 1574531118345,
-                                            "@_MODIFIED": 1574531127058,
-                                            "node": {
-                                                "@_TEXT": "again forbidden",
-                                                "@_ID": "ID_844246524",
-                                                "@_CREATED": 1574531127951,
-                                                "@_MODIFIED": 1574531132567
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "@_TEXT": "is async",
-                                    "@_ID": "ID_228449059",
-                                    "@_CREATED": 1574596069193,
-                                    "@_MODIFIED": 1574596072388,
-                                    "node": [
-                                        {
-                                            "@_TEXT": "turtle is sync",
-                                            "@_ID": "ID_466612470",
-                                            "@_CREATED": 1574596073407,
-                                            "@_MODIFIED": 1574596076882
-                                        },
-                                        {
-                                            "@_TEXT": "creates larger attack surface",
-                                            "@_ID": "ID_240096141",
-                                            "@_CREATED": 1574596079281,
-                                            "@_MODIFIED": 1574596086292
-                                        }
-                                    ]
+                                    "@_TEXT": "This seems far from simple",
+                                    "@_ID": "ID_1386411919",
+                                    "@_CREATED": 1574531016893,
+                                    "@_MODIFIED": 1574626443381,
+                                    "font": {
+                                        "@_BOLD": false
+                                    }
                                 }
                             ]
                         },
                         {
-                            "@_TEXT": "key",
-                            "@_ID": "ID_1643072838",
-                            "@_CREATED": 1574615664050,
-                            "@_MODIFIED": 1574615665377,
-                            "node": [
-                                {
-                                    "@_TEXT": "claims",
-                                    "@_ID": "ID_1039236328",
-                                    "@_CREATED": 1574530989571,
-                                    "@_MODIFIED": 1574531029382,
-                                    "node": [
-                                        {
-                                            "@_TEXT": "simplest possible implementation of a DID Method",
-                                            "@_ID": "ID_1634354247",
-                                            "@_CREATED": 1574530997703,
-                                            "@_MODIFIED": 1574531002104,
-                                            "font": {
-                                                "@_BOLD": true
-                                            }
-                                        },
-                                        {
-                                            "@_TEXT": "This seems far from simple",
-                                            "@_ID": "ID_1386411919",
-                                            "@_CREATED": 1574531016893,
-                                            "@_MODIFIED": 1574595961528,
-                                            "font": {
-                                                "@_BOLD": true
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "@_TEXT": "what do the terms mean",
-                                    "@_ID": "ID_139120582",
-                                    "@_CREATED": 1574615802791,
-                                    "@_MODIFIED": 1574615806633
-                                },
-                                {
-                                    "@_TEXT": "camelCase",
-                                    "@_ID": "ID_342298248",
-                                    "@_CREATED": 1574615841454,
-                                    "@_MODIFIED": 1574615845461
-                                }
-                            ]
+                            "@_TEXT": "not easy to understand what predicates mean",
+                            "@_ID": "ID_139120582",
+                            "@_CREATED": 1574615802791,
+                            "@_MODIFIED": 1574626438940
+                        },
+                        {
+                            "@_TEXT": "camelCase",
+                            "@_ID": "ID_342298248",
+                            "@_CREATED": 1574615841454,
+                            "@_MODIFIED": 1574615845461
                         }
                     ]
                 }

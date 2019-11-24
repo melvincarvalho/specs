@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_237352286",
             "@_CREATED": 1570576809840,
-            "@_MODIFIED": 1574595584471,
+            "@_MODIFIED": 1574626212972,
             "@_ICON_SIZE": "16.0 pt",
             "@_LINK": "../index.mm",
             "@_STYLE": "oval",
@@ -248,9 +248,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1810859973",
                     "@_CREATED": 1572063767900,
-                    "@_MODIFIED": 1574595584471,
-                    "@_HGAP_QUANTITY": "-64.7499976530672 pt",
-                    "@_VSHIFT_QUANTITY": "71.24999787658459 pt",
+                    "@_MODIFIED": 1574626212971,
+                    "@_LINK": "core.mm",
+                    "@_HGAP_QUANTITY": "-72.24999742954978 pt",
+                    "@_VSHIFT_QUANTITY": "69.74999792128807 pt",
                     "@_COLOR": "#666600",
                     "icon": {
                         "@_BUILTIN": "executable"
@@ -285,6 +286,31 @@
                     },
                     "edge": {
                         "@_COLOR": "#00ffff"
+                    },
+                    "node": {
+                        "@_TEXT": "links",
+                        "@_ID": "ID_808607355",
+                        "@_CREATED": 1570968728188,
+                        "@_MODIFIED": 1574626059924,
+                        "icon": {
+                            "@_BUILTIN": "attach"
+                        },
+                        "node": [
+                            {
+                                "@_TEXT": "mailing list",
+                                "@_ID": "ID_307060603",
+                                "@_CREATED": 1574596268933,
+                                "@_MODIFIED": 1574596274510,
+                                "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html"
+                            },
+                            {
+                                "@_TEXT": "did core",
+                                "@_ID": "ID_1309388462",
+                                "@_CREATED": 1574615252347,
+                                "@_MODIFIED": 1574615258291,
+                                "@_LINK": "https://w3c.github.io/did-core/"
+                            }
+                        ]
                     }
                 }
             ]
