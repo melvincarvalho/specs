@@ -191,7 +191,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 6,
+                    "@_COUNTER": 7,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -214,11 +214,59 @@
                         "@_COLOR": "#0000ff"
                     },
                     "node": {
-                        "@_TEXT": "the did:key method, the operations it supports, and some security and privacy considerations that implementers might want to be aware of when implementing",
+                        "@_TEXT": "the did:key method",
                         "@_ID": "ID_1311877564",
                         "@_CREATED": 1574530845000,
-                        "@_MODIFIED": 1574596350520
+                        "@_MODIFIED": 1574615222174
                     }
+                },
+                {
+                    "@_TEXT": "terms",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_45642208",
+                    "@_CREATED": 1574615830873,
+                    "@_MODIFIED": 1574615832414,
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "controller",
+                            "@_ID": "ID_29050614",
+                            "@_CREATED": 1574615833469,
+                            "@_MODIFIED": 1574615837095
+                        },
+                        {
+                            "@_TEXT": "authentication",
+                            "@_ID": "ID_1206287320",
+                            "@_CREATED": 1574615869340,
+                            "@_MODIFIED": 1574615872048
+                        },
+                        {
+                            "@_TEXT": "assertionMethod",
+                            "@_ID": "ID_1725784188",
+                            "@_CREATED": 1574615874000,
+                            "@_MODIFIED": 1574615877962
+                        },
+                        {
+                            "@_TEXT": "capabilityDelegation",
+                            "@_ID": "ID_370889307",
+                            "@_CREATED": 1574615879526,
+                            "@_MODIFIED": 1574615883839
+                        },
+                        {
+                            "@_TEXT": "capabilityInvocation",
+                            "@_ID": "ID_510883454",
+                            "@_CREATED": 1574615886031,
+                            "@_MODIFIED": 1574615890426
+                        },
+                        {
+                            "@_TEXT": "keyAgreement",
+                            "@_ID": "ID_1908240927",
+                            "@_CREATED": 1574615894254,
+                            "@_MODIFIED": 1574615897488
+                        }
+                    ]
                 },
                 {
                     "@_TEXT": "Example",
@@ -243,538 +291,33 @@
                             "@_MODIFIED": 1574530820944
                         },
                         {
-                            "@_ID": "ID_1599415660",
-                            "@_CREATED": 1574531013483,
-                            "@_MODIFIED": 1574531013483,
-                            "@_LINK": "https://w3id.org/did/v1&amp;quot;",
+                            "@_TEXT": "Ed25519KeyPair&#xa;{&#xa;  &quot;passphrase&quot;: null,&#xa;  &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;  &quot;privateKeyBase58&quot;: &quot;5QP6drhEvXRWnDFEDVuf5PPcd1KAzNWKUMREB17vVmmpjqHu49xEa2mnNu5SfC2Nnsy81zbYJZMCVZ3nhRvTuCTS&quot;,&#xa;  &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;}",
+                            "@_ID": "ID_1257545537",
+                            "@_CREATED": 1574615585110,
+                            "@_MODIFIED": 1574615588217
+                        },
+                        {
+                            "@_TEXT": "{&#xa;  &quot;@context&quot;: &quot;https://w3id.org/did/v1&quot;,&#xa;  &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;publicKey&quot;: [&#xa;    {&#xa;      &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;      &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;    }&#xa;  ],&#xa;  &quot;authentication&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;assertionMethod&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;capabilityDelegation&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;capabilityInvocation&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;keyAgreement&quot;: [&#xa;    {&#xa;      &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6#zBzWNb7XjrQRDQBD7TRzHjUCtrfhoeW2CUNCtKauGUEQ2S&quot;,&#xa;      &quot;type&quot;: &quot;X25519KeyAgreementKey2019&quot;,&#xa;      &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;publicKeyBase58&quot;: &quot;1eskLvf2fvy5A912VimK3DZRRzgwKayUKbHjpU589vE&quot;&#xa;    }&#xa;  ]&#xa;}",
+                            "@_ID": "ID_63600178",
+                            "@_CREATED": 1574615603590,
+                            "@_MODIFIED": 1574615605316
+                        },
+                        {
+                            "@_ID": "ID_993597605",
+                            "@_CREATED": 1574615635586,
+                            "@_MODIFIED": 1574615635586,
+                            "@_LINK": "https://did-key.web.app/api/dids/did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6",
                             "richcontent": {
                                 "@_TYPE": "NODE",
                                 "html": {
                                     "head": "",
                                     "body": {
-                                        "span": [
-                                            {
-                                                "@_http-equiv": "content-type",
-                                                "@_content": "text/html; charset=utf-8",
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": "{",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;https://w3id.org/did/v1&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": ",",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": ",",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": ",",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;Ed25519VerificationKey2018&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": ",",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": ",",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;B12NYF8RrR3h41TDCTJojY59usg3mbtbjnFs7Eud1Y6u&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": "}],",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": "],",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": "],",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": "],",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": "],",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#kakey&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": ",",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;X25519KeyAgreementKey2019&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": ",",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": ",",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_class": "hljs-string",
-                                                "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                "font": {
-                                                    "#text": "&quot;JhNWeSVLMYccCk7iopQW4guaSJTojqpMEELgSLhKwRr&quot;",
-                                                    "@_color": "rgb(221, 17, 68)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            },
-                                            {
-                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                "font": {
-                                                    "#text": "}] }",
-                                                    "@_color": "rgb(51, 51, 51)",
-                                                    "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                    "@_size": "14.4px"
-                                                }
-                                            }
-                                        ],
-                                        "font": [
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;@context&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ":",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;id&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ":",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;publicKey&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ": [{",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    },
-                                                    {
-                                                        "#text": "&quot;id&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ":",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;type&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ":",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;controller&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ":",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;publicKeyBase58&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ":",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;authentication&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ": [",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;assertionMethod&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ": [",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;capabilityDelegation&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ": [",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;capabilityInvocation&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ": [",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;keyAgreement&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ": [{",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    },
-                                                    {
-                                                        "#text": "&quot;id&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ":",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;type&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ":",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;controller&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ":",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "@_color": "rgb(51, 51, 51)",
-                                                "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                "@_size": "14.4px",
-                                                "span": [
-                                                    {
-                                                        "#text": "&quot;publicKeyBase58&quot;",
-                                                        "@_class": "hljs-attr",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                    },
-                                                    {
-                                                        "#text": ":",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                    }
-                                                ]
-                                            }
-                                        ]
+                                        "a": {
+                                            "#text": "https://did-key.web.app/api/dids/did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://did-key.web.app/api/dids/did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6"
+                                        }
                                     }
                                 }
                             }
@@ -791,17 +334,38 @@
                         "@_COLOR": "#7c0000"
                     },
                     "node": {
-                        "@_TEXT": "ML",
+                        "@_TEXT": "Mailing LIst",
                         "@_ID": "ID_142448183",
                         "@_CREATED": 1574596208921,
-                        "@_MODIFIED": 1574596210865,
-                        "node": {
-                            "@_TEXT": "Clarify syntax and predicates",
-                            "@_ID": "ID_1424305860",
-                            "@_CREATED": 1574596211988,
-                            "@_MODIFIED": 1574596226115,
-                            "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0099.html"
-                        }
+                        "@_MODIFIED": 1574615277987,
+                        "node": [
+                            {
+                                "@_TEXT": "Clarify syntax and predicates",
+                                "@_ID": "ID_1424305860",
+                                "@_CREATED": 1574596211988,
+                                "@_MODIFIED": 1574596226115,
+                                "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0099.html",
+                                "node": {
+                                    "@_TEXT": "Melvin Carvalho",
+                                    "@_ID": "ID_1445806045",
+                                    "@_CREATED": 1574615280988,
+                                    "@_MODIFIED": 1574615285643
+                                }
+                            },
+                            {
+                                "@_TEXT": "Clarifications and demo",
+                                "@_ID": "ID_527755790",
+                                "@_CREATED": 1574615350935,
+                                "@_MODIFIED": 1574615358239,
+                                "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0101.html",
+                                "node": {
+                                    "@_TEXT": "Manu Sporny",
+                                    "@_ID": "ID_1746695661",
+                                    "@_CREATED": 1574615359497,
+                                    "@_MODIFIED": 1574615363380
+                                }
+                            }
+                        ]
                     }
                 },
                 {
@@ -816,26 +380,73 @@
                     "edge": {
                         "@_COLOR": "#00007c"
                     },
-                    "node": {
-                        "@_ID": "ID_1230045352",
-                        "@_CREATED": 1574530793721,
-                        "@_MODIFIED": 1574530793721,
-                        "@_LINK": "https://digitalbazaar.github.io/did-method-key/#the-did-key-format",
-                        "richcontent": {
-                            "@_TYPE": "NODE",
-                            "html": {
-                                "head": "",
-                                "body": {
-                                    "a": {
-                                        "#text": "https://digitalbazaar.github.io/did-method-key/#the-did-key-format",
-                                        "@_http-equiv": "content-type",
-                                        "@_content": "text/html; charset=utf-8",
-                                        "@_href": "https://digitalbazaar.github.io/did-method-key/#the-did-key-format"
-                                    }
+                    "node": [
+                        {
+                            "@_TEXT": "spec",
+                            "@_ID": "ID_674273555",
+                            "@_CREATED": 1574615156865,
+                            "@_MODIFIED": 1574615160377,
+                            "@_LINK": "https://digitalbazaar.github.io/did-method-key/"
+                        },
+                        {
+                            "@_TEXT": "implementations",
+                            "@_ID": "ID_266162917",
+                            "@_CREATED": 1574615129736,
+                            "@_MODIFIED": 1574615467822,
+                            "node": [
+                                {
+                                    "@_TEXT": "Transmute",
+                                    "@_ID": "ID_699814464",
+                                    "@_CREATED": 1574615427351,
+                                    "@_MODIFIED": 1574615432833,
+                                    "@_LINK": "https://github.com/transmute-industries/did-key"
+                                },
+                                {
+                                    "@_TEXT": "Digital Bazaar",
+                                    "@_ID": "ID_20457538",
+                                    "@_CREATED": 1574615129736,
+                                    "@_MODIFIED": 1574615451098,
+                                    "@_LINK": "https://github.com/digitalbazaar/did-method-key-js#table-of-contents"
                                 }
-                            }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "test",
+                            "@_ID": "ID_1984008598",
+                            "@_CREATED": 1574615380319,
+                            "@_MODIFIED": 1574615383091,
+                            "@_LINK": "https://github.com/digitalbazaar/did-method-key-js/blob/master/tests/driver.spec.js"
+                        },
+                        {
+                            "@_TEXT": "demo",
+                            "@_ID": "ID_863930071",
+                            "@_CREATED": 1574615507827,
+                            "@_MODIFIED": 1574615512173,
+                            "@_LINK": "https://did-key.web.app/"
+                        },
+                        {
+                            "@_TEXT": "security ontology",
+                            "@_ID": "ID_1879313086",
+                            "@_CREATED": 1574615735358,
+                            "@_MODIFIED": 1574615792323,
+                            "node": [
+                                {
+                                    "@_TEXT": "github",
+                                    "@_ID": "ID_1802414645",
+                                    "@_CREATED": 1574615757154,
+                                    "@_MODIFIED": 1574615762248,
+                                    "@_LINK": "https://github.com/w3c-dvcg/security-vocab/blob/master/contexts/security-v2.jsonld#L39"
+                                },
+                                {
+                                    "@_TEXT": "npm",
+                                    "@_ID": "ID_689455920",
+                                    "@_CREATED": 1574615779364,
+                                    "@_MODIFIED": 1574615786303,
+                                    "@_LINK": "https://www.npmjs.com/package/security-context"
+                                }
+                            ]
                         }
-                    }
+                    ]
                 },
                 {
                     "@_TEXT": "docs",
@@ -849,13 +460,22 @@
                     "edge": {
                         "@_COLOR": "#ff00ff"
                     },
-                    "node": {
-                        "@_TEXT": "mailing list",
-                        "@_ID": "ID_307060603",
-                        "@_CREATED": 1574596268933,
-                        "@_MODIFIED": 1574596274510,
-                        "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html"
-                    }
+                    "node": [
+                        {
+                            "@_TEXT": "mailing list",
+                            "@_ID": "ID_307060603",
+                            "@_CREATED": 1574596268933,
+                            "@_MODIFIED": 1574596274510,
+                            "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html"
+                        },
+                        {
+                            "@_TEXT": "did core",
+                            "@_ID": "ID_1309388462",
+                            "@_CREATED": 1574615252347,
+                            "@_MODIFIED": 1574615258291,
+                            "@_LINK": "https://w3c.github.io/did-core/"
+                        }
+                    ]
                 },
                 {
                     "@_TEXT": "tags",
@@ -884,718 +504,188 @@
                     },
                     "node": [
                         {
-                            "@_TEXT": "document / identifier issue",
-                            "@_ID": "ID_1425020605",
-                            "@_CREATED": 1574530866726,
-                            "@_MODIFIED": 1574595990473,
+                            "@_TEXT": "did",
+                            "@_ID": "ID_1088192854",
+                            "@_CREATED": 1574615661751,
+                            "@_MODIFIED": 1574615662824,
                             "node": [
                                 {
-                                    "@_TEXT": "items regarding the document and key can be conflated",
-                                    "@_ID": "ID_890623481",
-                                    "@_CREATED": 1574530903953,
-                                    "@_MODIFIED": 1574530919043
+                                    "@_TEXT": "document / identifier issue",
+                                    "@_ID": "ID_1425020605",
+                                    "@_CREATED": 1574530866726,
+                                    "@_MODIFIED": 1574595990473,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "items regarding the document and key can be conflated",
+                                            "@_ID": "ID_890623481",
+                                            "@_CREATED": 1574530903953,
+                                            "@_MODIFIED": 1574530919043
+                                        },
+                                        {
+                                            "@_TEXT": "eg expiry, does the key expire or document exire",
+                                            "@_ID": "ID_67185380",
+                                            "@_CREATED": 1574530920338,
+                                            "@_MODIFIED": 1574530940521
+                                        }
+                                    ]
                                 },
                                 {
-                                    "@_TEXT": "eg expiry, does the key expire or document exire",
-                                    "@_ID": "ID_67185380",
-                                    "@_CREATED": 1574530920338,
-                                    "@_MODIFIED": 1574530940521
-                                }
-                            ]
-                        },
-                        {
-                            "@_TEXT": "relies on w3id.org",
-                            "@_ID": "ID_454102209",
-                            "@_CREATED": 1574530945679,
-                            "@_MODIFIED": 1574530951627,
-                            "node": {
-                                "@_TEXT": "which relies of HTTP(S) / DNS",
-                                "@_ID": "ID_1105252661",
-                                "@_CREATED": 1574530952494,
-                                "@_MODIFIED": 1574530974221,
-                                "node": {
-                                    "@_TEXT": "centralization",
-                                    "@_ID": "ID_377528786",
-                                    "@_CREATED": 1574530942150,
-                                    "@_MODIFIED": 1574530944679
-                                }
-                            }
-                        },
-                        {
-                            "@_TEXT": "claims",
-                            "@_ID": "ID_1039236328",
-                            "@_CREATED": 1574530989571,
-                            "@_MODIFIED": 1574531029382,
-                            "node": [
-                                {
-                                    "@_TEXT": "simplest possible implementation of a DID Method",
-                                    "@_ID": "ID_1634354247",
-                                    "@_CREATED": 1574530997703,
-                                    "@_MODIFIED": 1574531002104,
-                                    "font": {
-                                        "@_BOLD": true
-                                    }
-                                },
-                                {
-                                    "@_ID": "ID_1400816661",
-                                    "@_CREATED": 1574531013483,
-                                    "@_MODIFIED": 1574531013483,
-                                    "@_LINK": "https://w3id.org/did/v1&amp;quot;",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "span": [
-                                                    {
-                                                        "@_http-equiv": "content-type",
-                                                        "@_content": "text/html; charset=utf-8",
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": "{",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;https://w3id.org/did/v1&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": ",",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": ",",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": ",",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;Ed25519VerificationKey2018&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": ",",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": ",",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;B12NYF8RrR3h41TDCTJojY59usg3mbtbjnFs7Eud1Y6u&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": "}],",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": "],",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": "],",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": "],",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#pubkey&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": "],",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH#kakey&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": ",",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;X25519KeyAgreementKey2019&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": ",",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": ",",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_class": "hljs-string",
-                                                        "@_style": "color: rgb(221, 17, 68); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)",
-                                                        "font": {
-                                                            "#text": "&quot;JhNWeSVLMYccCk7iopQW4guaSJTojqpMEELgSLhKwRr&quot;",
-                                                            "@_color": "rgb(221, 17, 68)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    },
-                                                    {
-                                                        "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none",
-                                                        "font": {
-                                                            "#text": "}] }",
-                                                            "@_color": "rgb(51, 51, 51)",
-                                                            "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                            "@_size": "14.4px"
-                                                        }
-                                                    }
-                                                ],
-                                                "font": [
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;@context&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ":",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;id&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ":",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;publicKey&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ": [{",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            },
-                                                            {
-                                                                "#text": "&quot;id&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ":",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;type&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ":",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;controller&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ":",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;publicKeyBase58&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ":",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;authentication&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ": [",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;assertionMethod&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ": [",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;capabilityDelegation&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ": [",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;capabilityInvocation&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ": [",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;keyAgreement&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ": [{",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            },
-                                                            {
-                                                                "#text": "&quot;id&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ":",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;type&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ":",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;controller&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ":",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "@_color": "rgb(51, 51, 51)",
-                                                        "@_face": "Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace",
-                                                        "@_size": "14.4px",
-                                                        "span": [
-                                                            {
-                                                                "#text": "&quot;publicKeyBase58&quot;",
-                                                                "@_class": "hljs-attr",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238)"
-                                                            },
-                                                            {
-                                                                "#text": ":",
-                                                                "@_style": "color: rgb(51, 51, 51); font-family: Menlo, Consolas, DejaVu Sans Mono, Monaco, monospace; font-size: 14.4px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(252, 250, 238); display: inline !important; float: none"
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            }
+                                    "@_TEXT": "relies on w3id.org",
+                                    "@_ID": "ID_454102209",
+                                    "@_CREATED": 1574530945679,
+                                    "@_MODIFIED": 1574530951627,
+                                    "node": {
+                                        "@_TEXT": "which relies of HTTP(S) / DNS",
+                                        "@_ID": "ID_1105252661",
+                                        "@_CREATED": 1574530952494,
+                                        "@_MODIFIED": 1574530974221,
+                                        "node": {
+                                            "@_TEXT": "centralization",
+                                            "@_ID": "ID_377528786",
+                                            "@_CREATED": 1574530942150,
+                                            "@_MODIFIED": 1574530944679
                                         }
                                     }
                                 },
                                 {
-                                    "@_TEXT": "This seems far from simple",
-                                    "@_ID": "ID_1386411919",
-                                    "@_CREATED": 1574531016893,
-                                    "@_MODIFIED": 1574595961528,
-                                    "font": {
-                                        "@_BOLD": true
-                                    }
+                                    "@_TEXT": "relies on particular ontologies",
+                                    "@_ID": "ID_573143043",
+                                    "@_CREATED": 1574531046917,
+                                    "@_MODIFIED": 1574531052550,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "with specific years",
+                                            "@_ID": "ID_171664408",
+                                            "@_CREATED": 1574531053431,
+                                            "@_MODIFIED": 1574596035546
+                                        },
+                                        {
+                                            "@_TEXT": "requires upgrade path",
+                                            "@_ID": "ID_701528799",
+                                            "@_CREATED": 1574531062368,
+                                            "@_MODIFIED": 1574596050525
+                                        },
+                                        {
+                                            "@_TEXT": "requires caching strategy",
+                                            "@_ID": "ID_353956509",
+                                            "@_CREATED": 1574596051720,
+                                            "@_MODIFIED": 1574596056296
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_TEXT": "doesnt allow other RDF",
+                                    "@_ID": "ID_1847577386",
+                                    "@_CREATED": 1574531070291,
+                                    "@_MODIFIED": 1574531075678,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "no support for turtle",
+                                            "@_ID": "ID_1856495763",
+                                            "@_CREATED": 1574531076687,
+                                            "@_MODIFIED": 1574531080668
+                                        },
+                                        {
+                                            "@_TEXT": "conneg in impractical",
+                                            "@_ID": "ID_1836023449",
+                                            "@_CREATED": 1574531081433,
+                                            "@_MODIFIED": 1574531094419
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_TEXT": "no inline prefixes",
+                                    "@_ID": "ID_1299284769",
+                                    "@_CREATED": 1574531103932,
+                                    "@_MODIFIED": 1574531107785,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "requires an async fetch to get the prefixes",
+                                            "@_ID": "ID_1826929562",
+                                            "@_CREATED": 1574531108776,
+                                            "@_MODIFIED": 1574531117523
+                                        },
+                                        {
+                                            "@_TEXT": "could be fixed by inlining prefixes",
+                                            "@_ID": "ID_1084449423",
+                                            "@_CREATED": 1574531118345,
+                                            "@_MODIFIED": 1574531127058,
+                                            "node": {
+                                                "@_TEXT": "again forbidden",
+                                                "@_ID": "ID_844246524",
+                                                "@_CREATED": 1574531127951,
+                                                "@_MODIFIED": 1574531132567
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_TEXT": "is async",
+                                    "@_ID": "ID_228449059",
+                                    "@_CREATED": 1574596069193,
+                                    "@_MODIFIED": 1574596072388,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "turtle is sync",
+                                            "@_ID": "ID_466612470",
+                                            "@_CREATED": 1574596073407,
+                                            "@_MODIFIED": 1574596076882
+                                        },
+                                        {
+                                            "@_TEXT": "creates larger attack surface",
+                                            "@_ID": "ID_240096141",
+                                            "@_CREATED": 1574596079281,
+                                            "@_MODIFIED": 1574596086292
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
-                            "@_TEXT": "relies on particular ontologies",
-                            "@_ID": "ID_573143043",
-                            "@_CREATED": 1574531046917,
-                            "@_MODIFIED": 1574531052550,
+                            "@_TEXT": "key",
+                            "@_ID": "ID_1643072838",
+                            "@_CREATED": 1574615664050,
+                            "@_MODIFIED": 1574615665377,
                             "node": [
                                 {
-                                    "@_TEXT": "with specific years",
-                                    "@_ID": "ID_171664408",
-                                    "@_CREATED": 1574531053431,
-                                    "@_MODIFIED": 1574596035546
+                                    "@_TEXT": "claims",
+                                    "@_ID": "ID_1039236328",
+                                    "@_CREATED": 1574530989571,
+                                    "@_MODIFIED": 1574531029382,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "simplest possible implementation of a DID Method",
+                                            "@_ID": "ID_1634354247",
+                                            "@_CREATED": 1574530997703,
+                                            "@_MODIFIED": 1574531002104,
+                                            "font": {
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_TEXT": "This seems far from simple",
+                                            "@_ID": "ID_1386411919",
+                                            "@_CREATED": 1574531016893,
+                                            "@_MODIFIED": 1574595961528,
+                                            "font": {
+                                                "@_BOLD": true
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
-                                    "@_TEXT": "requires upgrade path",
-                                    "@_ID": "ID_701528799",
-                                    "@_CREATED": 1574531062368,
-                                    "@_MODIFIED": 1574596050525
+                                    "@_TEXT": "what do the terms mean",
+                                    "@_ID": "ID_139120582",
+                                    "@_CREATED": 1574615802791,
+                                    "@_MODIFIED": 1574615806633
                                 },
                                 {
-                                    "@_TEXT": "requires caching strategy",
-                                    "@_ID": "ID_353956509",
-                                    "@_CREATED": 1574596051720,
-                                    "@_MODIFIED": 1574596056296
+                                    "@_TEXT": "camelCase",
+                                    "@_ID": "ID_342298248",
+                                    "@_CREATED": 1574615841454,
+                                    "@_MODIFIED": 1574615845461
                                 }
                             ]
-                        },
-                        {
-                            "@_TEXT": "doesnt allow other RDF",
-                            "@_ID": "ID_1847577386",
-                            "@_CREATED": 1574531070291,
-                            "@_MODIFIED": 1574531075678,
-                            "node": [
-                                {
-                                    "@_TEXT": "no support for turtle",
-                                    "@_ID": "ID_1856495763",
-                                    "@_CREATED": 1574531076687,
-                                    "@_MODIFIED": 1574531080668
-                                },
-                                {
-                                    "@_TEXT": "conneg in impractical",
-                                    "@_ID": "ID_1836023449",
-                                    "@_CREATED": 1574531081433,
-                                    "@_MODIFIED": 1574531094419
-                                }
-                            ]
-                        },
-                        {
-                            "@_TEXT": "no inline prefixes",
-                            "@_ID": "ID_1299284769",
-                            "@_CREATED": 1574531103932,
-                            "@_MODIFIED": 1574531107785,
-                            "node": [
-                                {
-                                    "@_TEXT": "requires an async fetch to get the prefixes",
-                                    "@_ID": "ID_1826929562",
-                                    "@_CREATED": 1574531108776,
-                                    "@_MODIFIED": 1574531117523
-                                },
-                                {
-                                    "@_TEXT": "could be fixed by inlining prefixes",
-                                    "@_ID": "ID_1084449423",
-                                    "@_CREATED": 1574531118345,
-                                    "@_MODIFIED": 1574531127058,
-                                    "node": {
-                                        "@_TEXT": "again forbidden",
-                                        "@_ID": "ID_844246524",
-                                        "@_CREATED": 1574531127951,
-                                        "@_MODIFIED": 1574531132567
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "@_TEXT": "is async",
-                            "@_ID": "ID_228449059",
-                            "@_CREATED": 1574596069193,
-                            "@_MODIFIED": 1574596072388,
-                            "node": [
-                                {
-                                    "@_TEXT": "turtle is sync",
-                                    "@_ID": "ID_466612470",
-                                    "@_CREATED": 1574596073407,
-                                    "@_MODIFIED": 1574596076882
-                                },
-                                {
-                                    "@_TEXT": "creates larger attack surface",
-                                    "@_ID": "ID_240096141",
-                                    "@_CREATED": 1574596079281,
-                                    "@_MODIFIED": 1574596086292
-                                }
-                            ]
-                        },
-                        {
-                            "@_TEXT": "in progress",
-                            "@_ID": "ID_945601853",
-                            "@_CREATED": 1574596243921,
-                            "@_MODIFIED": 1574596250216,
-                            "font": {
-                                "@_BOLD": true
-                            },
-                            "node": {
-                                "@_TEXT": "terms not defined",
-                                "@_ID": "ID_547672658",
-                                "@_CREATED": 1574596088327,
-                                "@_MODIFIED": 1574596091931,
-                                "node": {
-                                    "@_TEXT": "waiting on clarification",
-                                    "@_ID": "ID_36723109",
-                                    "@_CREATED": 1574596232693,
-                                    "@_MODIFIED": 1574596238111
-                                }
-                            }
                         }
                     ]
                 }

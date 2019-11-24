@@ -1,14 +1,55 @@
 <#ID_1226961462> <urn:string:@_TEXT> """Summary""" .
+<#ID_45642208> <urn:string:@_TEXT> """terms""" .
+<#ID_29050614> <urn:string:@_TEXT> """controller""" .
+<#ID_29050614> <urn:string:child> <ID_29050614> .
+<#ID_1206287320> <urn:string:@_TEXT> """authentication""" .
+<#ID_1206287320> <urn:string:child> <ID_1206287320> .
+<#ID_1725784188> <urn:string:@_TEXT> """assertionMethod""" .
+<#ID_1725784188> <urn:string:child> <ID_1725784188> .
+<#ID_370889307> <urn:string:@_TEXT> """capabilityDelegation""" .
+<#ID_370889307> <urn:string:child> <ID_370889307> .
+<#ID_510883454> <urn:string:@_TEXT> """capabilityInvocation""" .
+<#ID_510883454> <urn:string:child> <ID_510883454> .
+<#ID_1908240927> <urn:string:@_TEXT> """keyAgreement""" .
+<#ID_1908240927> <urn:string:child> <ID_1908240927> .
 <#ID_120250381> <urn:string:@_TEXT> """Example""" .
 <#ID_985403617> <urn:string:@_TEXT> """did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH""" .
 <#ID_985403617> <urn:string:child> <ID_985403617> .
-<#ID_1599415660> <urn:string:@_TEXT> """undefined""" .
-<#ID_1599415660> <urn:string:child> <ID_1599415660> .
+<#ID_1257545537> <urn:string:@_TEXT> """Ed25519KeyPair&#xa;{&#xa;  &quot;passphrase&quot;: null,&#xa;  &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;  &quot;privateKeyBase58&quot;: &quot;5QP6drhEvXRWnDFEDVuf5PPcd1KAzNWKUMREB17vVmmpjqHu49xEa2mnNu5SfC2Nnsy81zbYJZMCVZ3nhRvTuCTS&quot;,&#xa;  &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;}""" .
+<#ID_1257545537> <urn:string:child> <ID_1257545537> .
+<#ID_63600178> <urn:string:@_TEXT> """{&#xa;  &quot;@context&quot;: &quot;https://w3id.org/did/v1&quot;,&#xa;  &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;publicKey&quot;: [&#xa;    {&#xa;      &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;      &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;    }&#xa;  ],&#xa;  &quot;authentication&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;assertionMethod&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;capabilityDelegation&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;capabilityInvocation&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;keyAgreement&quot;: [&#xa;    {&#xa;      &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6#zBzWNb7XjrQRDQBD7TRzHjUCtrfhoeW2CUNCtKauGUEQ2S&quot;,&#xa;      &quot;type&quot;: &quot;X25519KeyAgreementKey2019&quot;,&#xa;      &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;publicKeyBase58&quot;: &quot;1eskLvf2fvy5A912VimK3DZRRzgwKayUKbHjpU589vE&quot;&#xa;    }&#xa;  ]&#xa;}""" .
+<#ID_63600178> <urn:string:child> <ID_63600178> .
+<#ID_993597605> <urn:string:@_TEXT> """undefined""" .
+<#ID_993597605> <urn:string:child> <ID_993597605> .
 <#ID_387619455> <urn:string:@_TEXT> """Discussion""" .
 <#ID_808607355> <urn:string:@_TEXT> """links""" .
+<#ID_674273555> <urn:string:@_TEXT> """spec""" .
+<#ID_674273555> <urn:string:child> <ID_674273555> .
+<#ID_266162917> <urn:string:@_TEXT> """implementations""" .
+<#ID_266162917> <urn:string:child> <ID_266162917> .
+<#ID_699814464> <urn:string:@_TEXT> """Transmute""" .
+<#ID_699814464> <urn:string:child> <ID_699814464> .
+<#ID_20457538> <urn:string:@_TEXT> """Digital Bazaar""" .
+<#ID_20457538> <urn:string:child> <ID_20457538> .
+<#ID_1984008598> <urn:string:@_TEXT> """test""" .
+<#ID_1984008598> <urn:string:child> <ID_1984008598> .
+<#ID_863930071> <urn:string:@_TEXT> """demo""" .
+<#ID_863930071> <urn:string:child> <ID_863930071> .
+<#ID_1879313086> <urn:string:@_TEXT> """security ontology""" .
+<#ID_1879313086> <urn:string:child> <ID_1879313086> .
+<#ID_1802414645> <urn:string:@_TEXT> """github""" .
+<#ID_1802414645> <urn:string:child> <ID_1802414645> .
+<#ID_689455920> <urn:string:@_TEXT> """npm""" .
+<#ID_689455920> <urn:string:child> <ID_689455920> .
 <#ID_1100215200> <urn:string:@_TEXT> """docs""" .
+<#ID_307060603> <urn:string:@_TEXT> """mailing list""" .
+<#ID_307060603> <urn:string:child> <ID_307060603> .
+<#ID_1309388462> <urn:string:@_TEXT> """did core""" .
+<#ID_1309388462> <urn:string:child> <ID_1309388462> .
 <#ID_466759422> <urn:string:@_TEXT> """tags""" .
 <#ID_1414960960> <urn:string:@_TEXT> """Concerns""" .
+<#ID_1088192854> <urn:string:@_TEXT> """did""" .
+<#ID_1088192854> <urn:string:child> <ID_1088192854> .
 <#ID_1425020605> <urn:string:@_TEXT> """document / identifier issue""" .
 <#ID_1425020605> <urn:string:child> <ID_1425020605> .
 <#ID_890623481> <urn:string:@_TEXT> """items regarding the document and key can be conflated""" .
@@ -17,14 +58,6 @@
 <#ID_67185380> <urn:string:child> <ID_67185380> .
 <#ID_454102209> <urn:string:@_TEXT> """relies on w3id.org""" .
 <#ID_454102209> <urn:string:child> <ID_454102209> .
-<#ID_1039236328> <urn:string:@_TEXT> """claims""" .
-<#ID_1039236328> <urn:string:child> <ID_1039236328> .
-<#ID_1634354247> <urn:string:@_TEXT> """simplest possible implementation of a DID Method""" .
-<#ID_1634354247> <urn:string:child> <ID_1634354247> .
-<#ID_1400816661> <urn:string:@_TEXT> """undefined""" .
-<#ID_1400816661> <urn:string:child> <ID_1400816661> .
-<#ID_1386411919> <urn:string:@_TEXT> """This seems far from simple""" .
-<#ID_1386411919> <urn:string:child> <ID_1386411919> .
 <#ID_573143043> <urn:string:@_TEXT> """relies on particular ontologies""" .
 <#ID_573143043> <urn:string:child> <ID_573143043> .
 <#ID_171664408> <urn:string:@_TEXT> """with specific years""" .
@@ -51,5 +84,15 @@
 <#ID_466612470> <urn:string:child> <ID_466612470> .
 <#ID_240096141> <urn:string:@_TEXT> """creates larger attack surface""" .
 <#ID_240096141> <urn:string:child> <ID_240096141> .
-<#ID_945601853> <urn:string:@_TEXT> """in progress""" .
-<#ID_945601853> <urn:string:child> <ID_945601853> .
+<#ID_1643072838> <urn:string:@_TEXT> """key""" .
+<#ID_1643072838> <urn:string:child> <ID_1643072838> .
+<#ID_1039236328> <urn:string:@_TEXT> """claims""" .
+<#ID_1039236328> <urn:string:child> <ID_1039236328> .
+<#ID_1634354247> <urn:string:@_TEXT> """simplest possible implementation of a DID Method""" .
+<#ID_1634354247> <urn:string:child> <ID_1634354247> .
+<#ID_1386411919> <urn:string:@_TEXT> """This seems far from simple""" .
+<#ID_1386411919> <urn:string:child> <ID_1386411919> .
+<#ID_139120582> <urn:string:@_TEXT> """what do the terms mean""" .
+<#ID_139120582> <urn:string:child> <ID_139120582> .
+<#ID_342298248> <urn:string:@_TEXT> """camelCase""" .
+<#ID_342298248> <urn:string:child> <ID_342298248> .
