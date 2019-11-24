@@ -445,6 +445,13 @@
                                     "@_LINK": "https://www.npmjs.com/package/security-context"
                                 }
                             ]
+                        },
+                        {
+                            "@_TEXT": "Linked Data Proofs",
+                            "@_ID": "ID_320437573",
+                            "@_CREATED": 1574630005169,
+                            "@_MODIFIED": 1574630028486,
+                            "@_LINK": "https://w3c-dvcg.github.io/ld-proofs/#proof-purpose"
                         }
                     ]
                 },

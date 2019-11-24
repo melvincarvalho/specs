@@ -125,6 +125,7 @@
 <node TEXT="github" ID="ID_1802414645" CREATED="1574615757154" MODIFIED="1574615762248" LINK="https://github.com/w3c-dvcg/security-vocab/blob/master/contexts/security-v2.jsonld#L39"/>
 <node TEXT="npm" ID="ID_689455920" CREATED="1574615779364" MODIFIED="1574615786303" LINK="https://www.npmjs.com/package/security-context"/>
 </node>
+<node TEXT="Linked Data Proofs" ID="ID_320437573" CREATED="1574630005169" MODIFIED="1574630028486" LINK="https://w3c-dvcg.github.io/ld-proofs/#proof-purpose"/>
 </node>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
 <icon BUILTIN="folder"/>

@@ -41,6 +41,8 @@
 <#ID_1802414645> <urn:string:child> <ID_1802414645> .
 <#ID_689455920> <urn:string:@_TEXT> """npm""" .
 <#ID_689455920> <urn:string:child> <ID_689455920> .
+<#ID_320437573> <urn:string:@_TEXT> """Linked Data Proofs""" .
+<#ID_320437573> <urn:string:child> <ID_320437573> .
 <#ID_1100215200> <urn:string:@_TEXT> """docs""" .
 <#ID_307060603> <urn:string:@_TEXT> """mailing list""" .
 <#ID_307060603> <urn:string:child> <ID_307060603> .
