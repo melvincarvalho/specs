@@ -214,10 +214,10 @@
                         "@_COLOR": "#0000ff"
                     },
                     "node": {
-                        "@_TEXT": "he did:key method, the operations it supports, and some security and privacy considerations that implementers might want to be aware of when implementing",
+                        "@_TEXT": "the did:key method, the operations it supports, and some security and privacy considerations that implementers might want to be aware of when implementing",
                         "@_ID": "ID_1311877564",
                         "@_CREATED": 1574530845000,
-                        "@_MODIFIED": 1574530845000
+                        "@_MODIFIED": 1574596350520
                     }
                 },
                 {

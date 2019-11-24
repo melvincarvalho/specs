@@ -69,7 +69,7 @@
 <icon BUILTIN="wizard"/>
 <font SIZE="11" BOLD="true"/>
 <edge COLOR="#0000ff"/>
-<node TEXT="he did:key method, the operations it supports, and some security and privacy considerations that implementers might want to be aware of when implementing" ID="ID_1311877564" CREATED="1574530845000" MODIFIED="1574530845000"/>
+<node TEXT="the did:key method, the operations it supports, and some security and privacy considerations that implementers might want to be aware of when implementing" ID="ID_1311877564" CREATED="1574530845000" MODIFIED="1574596350520"/>
 </node>
 <node TEXT="Example" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1574530901397">
 <icon BUILTIN="list"/>
