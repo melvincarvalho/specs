@@ -6,12 +6,12 @@
             "@_FOLDED": false,
             "@_ID": "ID_1831615648",
             "@_CREATED": 1569272472516,
-            "@_MODIFIED": 1574595929627,
+            "@_MODIFIED": 1574790238670,
             "@_ICON_SIZE": "20.0 pt",
             "@_LINK": "index.mm",
             "@_STYLE": "oval",
             "icon": {
-                "@_BUILTIN": "bookmark"
+                "@_BUILTIN": "password"
             },
             "font": {
                 "@_SIZE": 18
