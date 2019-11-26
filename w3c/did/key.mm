@@ -64,12 +64,16 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Summary" POSITION="right" ID="ID_1226961462" CREATED="1570979963389" MODIFIED="1570980209554" COLOR="#3333ff">
 <icon BUILTIN="wizard"/>
 <font SIZE="11" BOLD="true"/>
 <edge COLOR="#0000ff"/>
-<node TEXT="the did:key method" ID="ID_1311877564" CREATED="1574530845000" MODIFIED="1574615222174"/>
+<node TEXT="the did:key method" ID="ID_1311877564" CREATED="1574530845000" MODIFIED="1574615222174">
+<node TEXT="Demo" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1464250735" CREATED="1574789274639" MODIFIED="1574789303054" LINK="https://did-key.web.app/">
+<font BOLD="true"/>
+</node>
+</node>
 </node>
 <node TEXT="Terms" POSITION="right" ID="ID_45642208" CREATED="1574615830873" MODIFIED="1574789115380" COLOR="#336600">
 <edge COLOR="#00007c"/>
