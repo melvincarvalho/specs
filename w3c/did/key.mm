@@ -71,21 +71,22 @@
 <edge COLOR="#0000ff"/>
 <node TEXT="the did:key method" ID="ID_1311877564" CREATED="1574530845000" MODIFIED="1574615222174"/>
 </node>
-<node TEXT="terms" POSITION="right" ID="ID_45642208" CREATED="1574615830873" MODIFIED="1574615832414">
+<node TEXT="Terms" POSITION="right" ID="ID_45642208" CREATED="1574615830873" MODIFIED="1574789115380" COLOR="#336600">
 <edge COLOR="#00007c"/>
-<node TEXT="controller" ID="ID_29050614" CREATED="1574615833469" MODIFIED="1574615837095"/>
-<node TEXT="authentication" ID="ID_1206287320" CREATED="1574615869340" MODIFIED="1574615872048"/>
-<node TEXT="assertionMethod" ID="ID_1725784188" CREATED="1574615874000" MODIFIED="1574615877962"/>
-<node TEXT="capabilityDelegation" ID="ID_370889307" CREATED="1574615879526" MODIFIED="1574615883839"/>
-<node TEXT="capabilityInvocation" ID="ID_510883454" CREATED="1574615886031" MODIFIED="1574615890426"/>
+<font SIZE="11" BOLD="true"/>
+<node TEXT="controller" ID="ID_29050614" CREATED="1574615833469" MODIFIED="1574789033858" LINK="https://www.w3.org/TR/did-core/#terminology"/>
+<node TEXT="authentication" ID="ID_1206287320" CREATED="1574615869340" MODIFIED="1574789056708" LINK="https://www.w3.org/TR/did-core/#authentication"/>
+<node TEXT="assertionMethod" ID="ID_1725784188" CREATED="1574615874000" MODIFIED="1574788936507" LINK="https://w3c.github.io/vc-data-model/#proofs-signatures-0"/>
+<node TEXT="capabilityDelegation" ID="ID_370889307" CREATED="1574615879526" MODIFIED="1574788955114" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology"/>
+<node TEXT="capabilityInvocation" ID="ID_510883454" CREATED="1574615886031" MODIFIED="1574788959241" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology"/>
 <node TEXT="keyAgreement" ID="ID_1908240927" CREATED="1574615894254" MODIFIED="1574615897488">
 <node TEXT="The keyAgreement key is a Curve25519 public key (suitable for Diffie-Hellman key exchange) that is deterministically derived from the source Ed25519 key, using ed2curve-js." ID="ID_1618462584" CREATED="1574781993446" MODIFIED="1574781993446"/>
 </node>
 </node>
-<node TEXT="Example" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1574530901397">
+<node TEXT="Example" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1574789125525" COLOR="#660000">
 <icon BUILTIN="list"/>
 <edge COLOR="#00ff00"/>
-<font BOLD="true"/>
+<font SIZE="11" BOLD="true"/>
 <node TEXT="did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH" FOLDED="true" ID="ID_985403617" CREATED="1574530820944" MODIFIED="1574530820944">
 <node TEXT="Ed25519KeyPair&#xa;{&#xa;  &quot;passphrase&quot;: null,&#xa;  &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;  &quot;privateKeyBase58&quot;: &quot;5QP6drhEvXRWnDFEDVuf5PPcd1KAzNWKUMREB17vVmmpjqHu49xEa2mnNu5SfC2Nnsy81zbYJZMCVZ3nhRvTuCTS&quot;,&#xa;  &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;}" ID="ID_1257545537" CREATED="1574615585110" MODIFIED="1574615588217"/>
 </node>
@@ -103,17 +104,6 @@
   </body>
 </html>
 </richcontent>
-</node>
-</node>
-<node TEXT="Discussion" POSITION="right" ID="ID_387619455" CREATED="1574595946140" MODIFIED="1574595950285">
-<edge COLOR="#7c0000"/>
-<node TEXT="Mailing LIst" ID="ID_142448183" CREATED="1574596208921" MODIFIED="1574615277987">
-<node TEXT="Clarify syntax and predicates" ID="ID_1424305860" CREATED="1574596211988" MODIFIED="1574596226115" LINK="https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0099.html">
-<node TEXT="Melvin Carvalho" ID="ID_1445806045" CREATED="1574615280988" MODIFIED="1574615285643"/>
-</node>
-<node TEXT="Clarifications and demo" ID="ID_527755790" CREATED="1574615350935" MODIFIED="1574615358239" LINK="https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0101.html">
-<node TEXT="Manu Sporny" ID="ID_1746695661" CREATED="1574615359497" MODIFIED="1574615363380"/>
-</node>
 </node>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
@@ -134,18 +124,30 @@
 <node TEXT="Transmute" ID="ID_699814464" CREATED="1574615427351" MODIFIED="1574615432833" LINK="https://github.com/transmute-industries/did-key"/>
 <node TEXT="Digital Bazaar" ID="ID_20457538" CREATED="1574615129736" MODIFIED="1574615451098" LINK="https://github.com/digitalbazaar/did-method-key-js#table-of-contents"/>
 </node>
+<node TEXT="Authorization Capabilities" ID="ID_1650944418" CREATED="1574788148662" MODIFIED="1574788159914" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology"/>
 </node>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
 <icon BUILTIN="folder"/>
 <edge COLOR="#ff00ff"/>
-<node TEXT="mailing list" ID="ID_307060603" CREATED="1574596268933" MODIFIED="1574596274510" LINK="https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html"/>
+<node TEXT="mailing list" FOLDED="true" ID="ID_307060603" CREATED="1574596268933" MODIFIED="1574596274510" LINK="https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html">
+<node TEXT="Discussion" ID="ID_387619455" CREATED="1574595946140" MODIFIED="1574789080211">
+<node TEXT="Mailing LIst" ID="ID_142448183" CREATED="1574596208921" MODIFIED="1574615277987">
+<node TEXT="Clarify syntax and predicates" ID="ID_1424305860" CREATED="1574596211988" MODIFIED="1574596226115" LINK="https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0099.html">
+<node TEXT="Melvin Carvalho" ID="ID_1445806045" CREATED="1574615280988" MODIFIED="1574615285643"/>
+</node>
+<node TEXT="Clarifications and demo" ID="ID_527755790" CREATED="1574615350935" MODIFIED="1574615358239" LINK="https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0101.html">
+<node TEXT="Manu Sporny" ID="ID_1746695661" CREATED="1574615359497" MODIFIED="1574615363380"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
 <icon BUILTIN="hashtag"/>
 <edge COLOR="#007c00"/>
 <node TEXT="#did" ID="ID_1467263929" CREATED="1574782581637" MODIFIED="1574782584378"/>
 </node>
-<node TEXT="Concerns" POSITION="left" ID="ID_1414960960" CREATED="1570968728177" MODIFIED="1574530860823">
+<node TEXT="Concerns" FOLDED="true" POSITION="left" ID="ID_1414960960" CREATED="1570968728177" MODIFIED="1574530860823">
 <icon BUILTIN="yes"/>
 <edge COLOR="#ff0000"/>
 <node TEXT="claims" ID="ID_1039236328" CREATED="1574530989571" MODIFIED="1574531029382">
@@ -158,6 +160,7 @@
 </node>
 <node TEXT="not easy to understand what predicates mean" ID="ID_139120582" CREATED="1574615802791" MODIFIED="1574626438940"/>
 <node TEXT="camelCase" ID="ID_342298248" CREATED="1574615841454" MODIFIED="1574615845461"/>
+<node TEXT="one example uses pubkey with fragment the other uses the did" ID="ID_1487848180" CREATED="1574787985098" MODIFIED="1574787997332"/>
 </node>
 </node>
 </map>

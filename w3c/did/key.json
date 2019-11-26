@@ -221,44 +221,54 @@
                     }
                 },
                 {
-                    "@_TEXT": "terms",
+                    "@_TEXT": "Terms",
                     "@_POSITION": "right",
                     "@_ID": "ID_45642208",
                     "@_CREATED": 1574615830873,
-                    "@_MODIFIED": 1574615832414,
+                    "@_MODIFIED": 1574789115380,
+                    "@_COLOR": "#336600",
                     "edge": {
                         "@_COLOR": "#00007c"
+                    },
+                    "font": {
+                        "@_SIZE": 11,
+                        "@_BOLD": true
                     },
                     "node": [
                         {
                             "@_TEXT": "controller",
                             "@_ID": "ID_29050614",
                             "@_CREATED": 1574615833469,
-                            "@_MODIFIED": 1574615837095
+                            "@_MODIFIED": 1574789033858,
+                            "@_LINK": "https://www.w3.org/TR/did-core/#terminology"
                         },
                         {
                             "@_TEXT": "authentication",
                             "@_ID": "ID_1206287320",
                             "@_CREATED": 1574615869340,
-                            "@_MODIFIED": 1574615872048
+                            "@_MODIFIED": 1574789056708,
+                            "@_LINK": "https://www.w3.org/TR/did-core/#authentication"
                         },
                         {
                             "@_TEXT": "assertionMethod",
                             "@_ID": "ID_1725784188",
                             "@_CREATED": 1574615874000,
-                            "@_MODIFIED": 1574615877962
+                            "@_MODIFIED": 1574788936507,
+                            "@_LINK": "https://w3c.github.io/vc-data-model/#proofs-signatures-0"
                         },
                         {
                             "@_TEXT": "capabilityDelegation",
                             "@_ID": "ID_370889307",
                             "@_CREATED": 1574615879526,
-                            "@_MODIFIED": 1574615883839
+                            "@_MODIFIED": 1574788955114,
+                            "@_LINK": "https://w3c-ccg.github.io/zcap-ld/#terminology"
                         },
                         {
                             "@_TEXT": "capabilityInvocation",
                             "@_ID": "ID_510883454",
                             "@_CREATED": 1574615886031,
-                            "@_MODIFIED": 1574615890426
+                            "@_MODIFIED": 1574788959241,
+                            "@_LINK": "https://w3c-ccg.github.io/zcap-ld/#terminology"
                         },
                         {
                             "@_TEXT": "keyAgreement",
@@ -279,7 +289,8 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_120250381",
                     "@_CREATED": 1570979967089,
-                    "@_MODIFIED": 1574530901397,
+                    "@_MODIFIED": 1574789125525,
+                    "@_COLOR": "#660000",
                     "icon": {
                         "@_BUILTIN": "list"
                     },
@@ -287,6 +298,7 @@
                         "@_COLOR": "#00ff00"
                     },
                     "font": {
+                        "@_SIZE": 11,
                         "@_BOLD": true
                     },
                     "node": [
@@ -334,50 +346,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "@_TEXT": "Discussion",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_387619455",
-                    "@_CREATED": 1574595946140,
-                    "@_MODIFIED": 1574595950285,
-                    "edge": {
-                        "@_COLOR": "#7c0000"
-                    },
-                    "node": {
-                        "@_TEXT": "Mailing LIst",
-                        "@_ID": "ID_142448183",
-                        "@_CREATED": 1574596208921,
-                        "@_MODIFIED": 1574615277987,
-                        "node": [
-                            {
-                                "@_TEXT": "Clarify syntax and predicates",
-                                "@_ID": "ID_1424305860",
-                                "@_CREATED": 1574596211988,
-                                "@_MODIFIED": 1574596226115,
-                                "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0099.html",
-                                "node": {
-                                    "@_TEXT": "Melvin Carvalho",
-                                    "@_ID": "ID_1445806045",
-                                    "@_CREATED": 1574615280988,
-                                    "@_MODIFIED": 1574615285643
-                                }
-                            },
-                            {
-                                "@_TEXT": "Clarifications and demo",
-                                "@_ID": "ID_527755790",
-                                "@_CREATED": 1574615350935,
-                                "@_MODIFIED": 1574615358239,
-                                "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0101.html",
-                                "node": {
-                                    "@_TEXT": "Manu Sporny",
-                                    "@_ID": "ID_1746695661",
-                                    "@_CREATED": 1574615359497,
-                                    "@_MODIFIED": 1574615363380
-                                }
-                            }
-                        ]
-                    }
                 },
                 {
                     "@_TEXT": "links",
@@ -484,6 +452,13 @@
                                     "@_LINK": "https://github.com/digitalbazaar/did-method-key-js#table-of-contents"
                                 }
                             ]
+                        },
+                        {
+                            "@_TEXT": "Authorization Capabilities",
+                            "@_ID": "ID_1650944418",
+                            "@_CREATED": 1574788148662,
+                            "@_MODIFIED": 1574788159914,
+                            "@_LINK": "https://w3c-ccg.github.io/zcap-ld/#terminology"
                         }
                     ]
                 },
@@ -501,10 +476,51 @@
                     },
                     "node": {
                         "@_TEXT": "mailing list",
+                        "@_FOLDED": true,
                         "@_ID": "ID_307060603",
                         "@_CREATED": 1574596268933,
                         "@_MODIFIED": 1574596274510,
-                        "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html"
+                        "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html",
+                        "node": {
+                            "@_TEXT": "Discussion",
+                            "@_ID": "ID_387619455",
+                            "@_CREATED": 1574595946140,
+                            "@_MODIFIED": 1574789080211,
+                            "node": {
+                                "@_TEXT": "Mailing LIst",
+                                "@_ID": "ID_142448183",
+                                "@_CREATED": 1574596208921,
+                                "@_MODIFIED": 1574615277987,
+                                "node": [
+                                    {
+                                        "@_TEXT": "Clarify syntax and predicates",
+                                        "@_ID": "ID_1424305860",
+                                        "@_CREATED": 1574596211988,
+                                        "@_MODIFIED": 1574596226115,
+                                        "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0099.html",
+                                        "node": {
+                                            "@_TEXT": "Melvin Carvalho",
+                                            "@_ID": "ID_1445806045",
+                                            "@_CREATED": 1574615280988,
+                                            "@_MODIFIED": 1574615285643
+                                        }
+                                    },
+                                    {
+                                        "@_TEXT": "Clarifications and demo",
+                                        "@_ID": "ID_527755790",
+                                        "@_CREATED": 1574615350935,
+                                        "@_MODIFIED": 1574615358239,
+                                        "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/0101.html",
+                                        "node": {
+                                            "@_TEXT": "Manu Sporny",
+                                            "@_ID": "ID_1746695661",
+                                            "@_CREATED": 1574615359497,
+                                            "@_MODIFIED": 1574615363380
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     }
                 },
                 {
@@ -528,6 +544,7 @@
                 },
                 {
                     "@_TEXT": "Concerns",
+                    "@_FOLDED": true,
                     "@_POSITION": "left",
                     "@_ID": "ID_1414960960",
                     "@_CREATED": 1570968728177,
@@ -576,6 +593,12 @@
                             "@_ID": "ID_342298248",
                             "@_CREATED": 1574615841454,
                             "@_MODIFIED": 1574615845461
+                        },
+                        {
+                            "@_TEXT": "one example uses pubkey with fragment the other uses the did",
+                            "@_ID": "ID_1487848180",
+                            "@_CREATED": 1574787985098,
+                            "@_MODIFIED": 1574787997332
                         }
                     ]
                 }

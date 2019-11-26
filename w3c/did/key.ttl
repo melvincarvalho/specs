@@ -1,5 +1,5 @@
 <#ID_1226961462> <urn:string:@_TEXT> """Summary""" .
-<#ID_45642208> <urn:string:@_TEXT> """terms""" .
+<#ID_45642208> <urn:string:@_TEXT> """Terms""" .
 <#ID_29050614> <urn:string:@_TEXT> """controller""" .
 <#ID_29050614> <urn:string:child> <ID_29050614> .
 <#ID_1206287320> <urn:string:@_TEXT> """authentication""" .
@@ -19,7 +19,6 @@
 <#ID_63600178> <urn:string:child> <ID_63600178> .
 <#ID_993597605> <urn:string:@_TEXT> """undefined""" .
 <#ID_993597605> <urn:string:child> <ID_993597605> .
-<#ID_387619455> <urn:string:@_TEXT> """Discussion""" .
 <#ID_808607355> <urn:string:@_TEXT> """links""" .
 <#ID_674273555> <urn:string:@_TEXT> """did key spec""" .
 <#ID_674273555> <urn:string:child> <ID_674273555> .
@@ -47,6 +46,8 @@
 <#ID_699814464> <urn:string:child> <ID_699814464> .
 <#ID_20457538> <urn:string:@_TEXT> """Digital Bazaar""" .
 <#ID_20457538> <urn:string:child> <ID_20457538> .
+<#ID_1650944418> <urn:string:@_TEXT> """Authorization Capabilities""" .
+<#ID_1650944418> <urn:string:child> <ID_1650944418> .
 <#ID_1100215200> <urn:string:@_TEXT> """docs""" .
 <#ID_466759422> <urn:string:@_TEXT> """tags""" .
 <#ID_1414960960> <urn:string:@_TEXT> """Concerns""" .
@@ -60,3 +61,5 @@
 <#ID_139120582> <urn:string:child> <ID_139120582> .
 <#ID_342298248> <urn:string:@_TEXT> """camelCase""" .
 <#ID_342298248> <urn:string:child> <ID_342298248> .
+<#ID_1487848180> <urn:string:@_TEXT> """one example uses pubkey with fragment the other uses the did""" .
+<#ID_1487848180> <urn:string:child> <ID_1487848180> .
