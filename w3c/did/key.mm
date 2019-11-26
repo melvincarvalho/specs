@@ -78,15 +78,20 @@
 <node TEXT="assertionMethod" ID="ID_1725784188" CREATED="1574615874000" MODIFIED="1574615877962"/>
 <node TEXT="capabilityDelegation" ID="ID_370889307" CREATED="1574615879526" MODIFIED="1574615883839"/>
 <node TEXT="capabilityInvocation" ID="ID_510883454" CREATED="1574615886031" MODIFIED="1574615890426"/>
-<node TEXT="keyAgreement" ID="ID_1908240927" CREATED="1574615894254" MODIFIED="1574615897488"/>
+<node TEXT="keyAgreement" ID="ID_1908240927" CREATED="1574615894254" MODIFIED="1574615897488">
+<node TEXT="The keyAgreement key is a Curve25519 public key (suitable for Diffie-Hellman key exchange) that is deterministically derived from the source Ed25519 key, using ed2curve-js." ID="ID_1618462584" CREATED="1574781993446" MODIFIED="1574781993446"/>
+</node>
 </node>
 <node TEXT="Example" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1574530901397">
 <icon BUILTIN="list"/>
 <edge COLOR="#00ff00"/>
 <font BOLD="true"/>
-<node TEXT="did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH" ID="ID_985403617" CREATED="1574530820944" MODIFIED="1574530820944"/>
+<node TEXT="did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH" FOLDED="true" ID="ID_985403617" CREATED="1574530820944" MODIFIED="1574530820944">
 <node TEXT="Ed25519KeyPair&#xa;{&#xa;  &quot;passphrase&quot;: null,&#xa;  &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;  &quot;privateKeyBase58&quot;: &quot;5QP6drhEvXRWnDFEDVuf5PPcd1KAzNWKUMREB17vVmmpjqHu49xEa2mnNu5SfC2Nnsy81zbYJZMCVZ3nhRvTuCTS&quot;,&#xa;  &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;}" ID="ID_1257545537" CREATED="1574615585110" MODIFIED="1574615588217"/>
-<node TEXT="{&#xa;  &quot;@context&quot;: &quot;https://w3id.org/did/v1&quot;,&#xa;  &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;publicKey&quot;: [&#xa;    {&#xa;      &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;      &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;    }&#xa;  ],&#xa;  &quot;authentication&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;assertionMethod&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;capabilityDelegation&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;capabilityInvocation&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;keyAgreement&quot;: [&#xa;    {&#xa;      &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6#zBzWNb7XjrQRDQBD7TRzHjUCtrfhoeW2CUNCtKauGUEQ2S&quot;,&#xa;      &quot;type&quot;: &quot;X25519KeyAgreementKey2019&quot;,&#xa;      &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;publicKeyBase58&quot;: &quot;1eskLvf2fvy5A912VimK3DZRRzgwKayUKbHjpU589vE&quot;&#xa;    }&#xa;  ]&#xa;}" ID="ID_63600178" CREATED="1574615603590" MODIFIED="1574615605316"/>
+</node>
+<node TEXT="{&#xa;  &quot;@context&quot;: &quot;https://w3id.org/did/v1&quot;,&#xa;  &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;publicKey&quot;: [&#xa;    {&#xa;      &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;      &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;    }&#xa;  ],&#xa;  &quot;authentication&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;assertionMethod&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;capabilityDelegation&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;capabilityInvocation&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;keyAgreement&quot;: [&#xa;    {&#xa;      &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6#zBzWNb7XjrQRDQBD7TRzHjUCtrfhoeW2CUNCtKauGUEQ2S&quot;,&#xa;      &quot;type&quot;: &quot;X25519KeyAgreementKey2019&quot;,&#xa;      &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;publicKeyBase58&quot;: &quot;1eskLvf2fvy5A912VimK3DZRRzgwKayUKbHjpU589vE&quot;&#xa;    }&#xa;  ]&#xa;}" ID="ID_63600178" CREATED="1574615603590" MODIFIED="1574781818296">
+<cloud COLOR="#ffffcc" SHAPE="ROUND_RECT"/>
+</node>
 <node ID="ID_993597605" CREATED="1574615635586" MODIFIED="1574615635586" LINK="https://did-key.web.app/api/dids/did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6"><richcontent TYPE="NODE">
 
 <html>
@@ -114,28 +119,31 @@
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
 <icon BUILTIN="attach"/>
 <edge COLOR="#00007c"/>
-<node TEXT="spec" ID="ID_674273555" CREATED="1574615156865" MODIFIED="1574615160377" LINK="https://digitalbazaar.github.io/did-method-key/"/>
-<node TEXT="implementations" ID="ID_266162917" CREATED="1574615129736" MODIFIED="1574615467822">
-<node TEXT="Transmute" ID="ID_699814464" CREATED="1574615427351" MODIFIED="1574615432833" LINK="https://github.com/transmute-industries/did-key"/>
-<node TEXT="Digital Bazaar" ID="ID_20457538" CREATED="1574615129736" MODIFIED="1574615451098" LINK="https://github.com/digitalbazaar/did-method-key-js#table-of-contents"/>
-</node>
-<node TEXT="test" ID="ID_1984008598" CREATED="1574615380319" MODIFIED="1574615383091" LINK="https://github.com/digitalbazaar/did-method-key-js/blob/master/tests/driver.spec.js"/>
+<node TEXT="did key spec" ID="ID_674273555" CREATED="1574615156865" MODIFIED="1574782546299" LINK="https://digitalbazaar.github.io/did-method-key/"/>
+<node TEXT="did core" ID="ID_1309388462" CREATED="1574615252347" MODIFIED="1574615258291" LINK="https://w3c.github.io/did-core/"/>
 <node TEXT="demo" ID="ID_863930071" CREATED="1574615507827" MODIFIED="1574615512173" LINK="https://did-key.web.app/"/>
+<node TEXT="Linked Data Proofs" ID="ID_320437573" CREATED="1574630005169" MODIFIED="1574630028486" LINK="https://w3c-dvcg.github.io/ld-proofs/#proof-purpose"/>
+<node TEXT="LD Cryptosuite registry" ID="ID_570765293" CREATED="1574781938712" MODIFIED="1574781949063" LINK="https://w3c-ccg.github.io/ld-cryptosuite-registry/"/>
+<node TEXT="vc data model" ID="ID_1387965929" CREATED="1574782225205" MODIFIED="1574782231487" LINK="https://www.w3.org/TR/vc-data-model/"/>
 <node TEXT="security ontology" ID="ID_1879313086" CREATED="1574615735358" MODIFIED="1574615792323">
 <node TEXT="github" ID="ID_1802414645" CREATED="1574615757154" MODIFIED="1574615762248" LINK="https://github.com/w3c-dvcg/security-vocab/blob/master/contexts/security-v2.jsonld#L39"/>
 <node TEXT="npm" ID="ID_689455920" CREATED="1574615779364" MODIFIED="1574615786303" LINK="https://www.npmjs.com/package/security-context"/>
 </node>
-<node TEXT="Linked Data Proofs" ID="ID_320437573" CREATED="1574630005169" MODIFIED="1574630028486" LINK="https://w3c-dvcg.github.io/ld-proofs/#proof-purpose"/>
+<node TEXT="test" ID="ID_1984008598" CREATED="1574615380319" MODIFIED="1574615383091" LINK="https://github.com/digitalbazaar/did-method-key-js/blob/master/tests/driver.spec.js"/>
+<node TEXT="implementations" ID="ID_266162917" CREATED="1574615129736" MODIFIED="1574615467822">
+<node TEXT="Transmute" ID="ID_699814464" CREATED="1574615427351" MODIFIED="1574615432833" LINK="https://github.com/transmute-industries/did-key"/>
+<node TEXT="Digital Bazaar" ID="ID_20457538" CREATED="1574615129736" MODIFIED="1574615451098" LINK="https://github.com/digitalbazaar/did-method-key-js#table-of-contents"/>
+</node>
 </node>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
 <icon BUILTIN="folder"/>
 <edge COLOR="#ff00ff"/>
 <node TEXT="mailing list" ID="ID_307060603" CREATED="1574596268933" MODIFIED="1574596274510" LINK="https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html"/>
-<node TEXT="did core" ID="ID_1309388462" CREATED="1574615252347" MODIFIED="1574615258291" LINK="https://w3c.github.io/did-core/"/>
 </node>
 <node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
 <icon BUILTIN="hashtag"/>
 <edge COLOR="#007c00"/>
+<node TEXT="#did" ID="ID_1467263929" CREATED="1574782581637" MODIFIED="1574782584378"/>
 </node>
 <node TEXT="Concerns" POSITION="left" ID="ID_1414960960" CREATED="1570968728177" MODIFIED="1574530860823">
 <icon BUILTIN="yes"/>

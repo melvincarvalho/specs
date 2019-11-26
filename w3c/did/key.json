@@ -264,7 +264,13 @@
                             "@_TEXT": "keyAgreement",
                             "@_ID": "ID_1908240927",
                             "@_CREATED": 1574615894254,
-                            "@_MODIFIED": 1574615897488
+                            "@_MODIFIED": 1574615897488,
+                            "node": {
+                                "@_TEXT": "The keyAgreement key is a Curve25519 public key (suitable for Diffie-Hellman key exchange) that is deterministically derived from the source Ed25519 key, using ed2curve-js.",
+                                "@_ID": "ID_1618462584",
+                                "@_CREATED": 1574781993446,
+                                "@_MODIFIED": 1574781993446
+                            }
                         }
                     ]
                 },
@@ -286,21 +292,26 @@
                     "node": [
                         {
                             "@_TEXT": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+                            "@_FOLDED": true,
                             "@_ID": "ID_985403617",
                             "@_CREATED": 1574530820944,
-                            "@_MODIFIED": 1574530820944
-                        },
-                        {
-                            "@_TEXT": "Ed25519KeyPair&#xa;{&#xa;  &quot;passphrase&quot;: null,&#xa;  &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;  &quot;privateKeyBase58&quot;: &quot;5QP6drhEvXRWnDFEDVuf5PPcd1KAzNWKUMREB17vVmmpjqHu49xEa2mnNu5SfC2Nnsy81zbYJZMCVZ3nhRvTuCTS&quot;,&#xa;  &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;}",
-                            "@_ID": "ID_1257545537",
-                            "@_CREATED": 1574615585110,
-                            "@_MODIFIED": 1574615588217
+                            "@_MODIFIED": 1574530820944,
+                            "node": {
+                                "@_TEXT": "Ed25519KeyPair&#xa;{&#xa;  &quot;passphrase&quot;: null,&#xa;  &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;  &quot;privateKeyBase58&quot;: &quot;5QP6drhEvXRWnDFEDVuf5PPcd1KAzNWKUMREB17vVmmpjqHu49xEa2mnNu5SfC2Nnsy81zbYJZMCVZ3nhRvTuCTS&quot;,&#xa;  &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;}",
+                                "@_ID": "ID_1257545537",
+                                "@_CREATED": 1574615585110,
+                                "@_MODIFIED": 1574615588217
+                            }
                         },
                         {
                             "@_TEXT": "{&#xa;  &quot;@context&quot;: &quot;https://w3id.org/did/v1&quot;,&#xa;  &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;  &quot;publicKey&quot;: [&#xa;    {&#xa;      &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;type&quot;: &quot;Ed25519VerificationKey2018&quot;,&#xa;      &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;publicKeyBase58&quot;: &quot;2QTnR7atrFu3Y7S6Xmmr4hTsMaL1KDh6Mpe9MgnJugbi&quot;&#xa;    }&#xa;  ],&#xa;  &quot;authentication&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;assertionMethod&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;capabilityDelegation&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;capabilityInvocation&quot;: [&#xa;    &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;&#xa;  ],&#xa;  &quot;keyAgreement&quot;: [&#xa;    {&#xa;      &quot;id&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6#zBzWNb7XjrQRDQBD7TRzHjUCtrfhoeW2CUNCtKauGUEQ2S&quot;,&#xa;      &quot;type&quot;: &quot;X25519KeyAgreementKey2019&quot;,&#xa;      &quot;controller&quot;: &quot;did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6&quot;,&#xa;      &quot;publicKeyBase58&quot;: &quot;1eskLvf2fvy5A912VimK3DZRRzgwKayUKbHjpU589vE&quot;&#xa;    }&#xa;  ]&#xa;}",
                             "@_ID": "ID_63600178",
                             "@_CREATED": 1574615603590,
-                            "@_MODIFIED": 1574615605316
+                            "@_MODIFIED": 1574781818296,
+                            "cloud": {
+                                "@_COLOR": "#ffffcc",
+                                "@_SHAPE": "ROUND_RECT"
+                            }
                         },
                         {
                             "@_ID": "ID_993597605",
@@ -382,40 +393,18 @@
                     },
                     "node": [
                         {
-                            "@_TEXT": "spec",
+                            "@_TEXT": "did key spec",
                             "@_ID": "ID_674273555",
                             "@_CREATED": 1574615156865,
-                            "@_MODIFIED": 1574615160377,
+                            "@_MODIFIED": 1574782546299,
                             "@_LINK": "https://digitalbazaar.github.io/did-method-key/"
                         },
                         {
-                            "@_TEXT": "implementations",
-                            "@_ID": "ID_266162917",
-                            "@_CREATED": 1574615129736,
-                            "@_MODIFIED": 1574615467822,
-                            "node": [
-                                {
-                                    "@_TEXT": "Transmute",
-                                    "@_ID": "ID_699814464",
-                                    "@_CREATED": 1574615427351,
-                                    "@_MODIFIED": 1574615432833,
-                                    "@_LINK": "https://github.com/transmute-industries/did-key"
-                                },
-                                {
-                                    "@_TEXT": "Digital Bazaar",
-                                    "@_ID": "ID_20457538",
-                                    "@_CREATED": 1574615129736,
-                                    "@_MODIFIED": 1574615451098,
-                                    "@_LINK": "https://github.com/digitalbazaar/did-method-key-js#table-of-contents"
-                                }
-                            ]
-                        },
-                        {
-                            "@_TEXT": "test",
-                            "@_ID": "ID_1984008598",
-                            "@_CREATED": 1574615380319,
-                            "@_MODIFIED": 1574615383091,
-                            "@_LINK": "https://github.com/digitalbazaar/did-method-key-js/blob/master/tests/driver.spec.js"
+                            "@_TEXT": "did core",
+                            "@_ID": "ID_1309388462",
+                            "@_CREATED": 1574615252347,
+                            "@_MODIFIED": 1574615258291,
+                            "@_LINK": "https://w3c.github.io/did-core/"
                         },
                         {
                             "@_TEXT": "demo",
@@ -423,6 +412,27 @@
                             "@_CREATED": 1574615507827,
                             "@_MODIFIED": 1574615512173,
                             "@_LINK": "https://did-key.web.app/"
+                        },
+                        {
+                            "@_TEXT": "Linked Data Proofs",
+                            "@_ID": "ID_320437573",
+                            "@_CREATED": 1574630005169,
+                            "@_MODIFIED": 1574630028486,
+                            "@_LINK": "https://w3c-dvcg.github.io/ld-proofs/#proof-purpose"
+                        },
+                        {
+                            "@_TEXT": "LD Cryptosuite registry",
+                            "@_ID": "ID_570765293",
+                            "@_CREATED": 1574781938712,
+                            "@_MODIFIED": 1574781949063,
+                            "@_LINK": "https://w3c-ccg.github.io/ld-cryptosuite-registry/"
+                        },
+                        {
+                            "@_TEXT": "vc data model",
+                            "@_ID": "ID_1387965929",
+                            "@_CREATED": 1574782225205,
+                            "@_MODIFIED": 1574782231487,
+                            "@_LINK": "https://www.w3.org/TR/vc-data-model/"
                         },
                         {
                             "@_TEXT": "security ontology",
@@ -447,11 +457,33 @@
                             ]
                         },
                         {
-                            "@_TEXT": "Linked Data Proofs",
-                            "@_ID": "ID_320437573",
-                            "@_CREATED": 1574630005169,
-                            "@_MODIFIED": 1574630028486,
-                            "@_LINK": "https://w3c-dvcg.github.io/ld-proofs/#proof-purpose"
+                            "@_TEXT": "test",
+                            "@_ID": "ID_1984008598",
+                            "@_CREATED": 1574615380319,
+                            "@_MODIFIED": 1574615383091,
+                            "@_LINK": "https://github.com/digitalbazaar/did-method-key-js/blob/master/tests/driver.spec.js"
+                        },
+                        {
+                            "@_TEXT": "implementations",
+                            "@_ID": "ID_266162917",
+                            "@_CREATED": 1574615129736,
+                            "@_MODIFIED": 1574615467822,
+                            "node": [
+                                {
+                                    "@_TEXT": "Transmute",
+                                    "@_ID": "ID_699814464",
+                                    "@_CREATED": 1574615427351,
+                                    "@_MODIFIED": 1574615432833,
+                                    "@_LINK": "https://github.com/transmute-industries/did-key"
+                                },
+                                {
+                                    "@_TEXT": "Digital Bazaar",
+                                    "@_ID": "ID_20457538",
+                                    "@_CREATED": 1574615129736,
+                                    "@_MODIFIED": 1574615451098,
+                                    "@_LINK": "https://github.com/digitalbazaar/did-method-key-js#table-of-contents"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -467,22 +499,13 @@
                     "edge": {
                         "@_COLOR": "#ff00ff"
                     },
-                    "node": [
-                        {
-                            "@_TEXT": "mailing list",
-                            "@_ID": "ID_307060603",
-                            "@_CREATED": 1574596268933,
-                            "@_MODIFIED": 1574596274510,
-                            "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html"
-                        },
-                        {
-                            "@_TEXT": "did core",
-                            "@_ID": "ID_1309388462",
-                            "@_CREATED": 1574615252347,
-                            "@_MODIFIED": 1574615258291,
-                            "@_LINK": "https://w3c.github.io/did-core/"
-                        }
-                    ]
+                    "node": {
+                        "@_TEXT": "mailing list",
+                        "@_ID": "ID_307060603",
+                        "@_CREATED": 1574596268933,
+                        "@_MODIFIED": 1574596274510,
+                        "@_LINK": "https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html"
+                    }
                 },
                 {
                     "@_TEXT": "tags",
@@ -495,6 +518,12 @@
                     },
                     "edge": {
                         "@_COLOR": "#007c00"
+                    },
+                    "node": {
+                        "@_TEXT": "#did",
+                        "@_ID": "ID_1467263929",
+                        "@_CREATED": 1574782581637,
+                        "@_MODIFIED": 1574782584378
                     }
                 },
                 {
