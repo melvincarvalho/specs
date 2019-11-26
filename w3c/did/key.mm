@@ -69,8 +69,9 @@
 <icon BUILTIN="wizard"/>
 <font SIZE="11" BOLD="true"/>
 <edge COLOR="#0000ff"/>
-<node TEXT="Demo" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1464250735" CREATED="1574789274639" MODIFIED="1574789903794" LINK="https://did-key.web.app/" COLOR="#00b439">
-<font SIZE="15" BOLD="true"/>
+<node TEXT="Demo" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1464250735" CREATED="1574789274639" MODIFIED="1574790510690" ICON_SIZE="16.0 pt" LINK="https://did-key.web.app/" COLOR="#3333ff">
+<icon BUILTIN="ksmiletris"/>
+<font SIZE="16" BOLD="true"/>
 </node>
 <node TEXT="This specification describes a non-registry based DID Method based on expanding a cryptographic public key into a DID Document. This approach provides the simplest possible implementation of a DID Method" ID="ID_183149302" CREATED="1574789488614" MODIFIED="1574789631412" COLOR="#3333ff">
 <font BOLD="false"/>
@@ -100,7 +101,7 @@
 <node TEXT="The keyAgreement key is a Curve25519 public key (suitable for Diffie-Hellman key exchange) that is deterministically derived from the source Ed25519 key, using ed2curve-js." ID="ID_1618462584" CREATED="1574781993446" MODIFIED="1574789839618" COLOR="#00b439"/>
 </node>
 </node>
-<node TEXT="Example" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1574790341584" COLOR="#660000">
+<node TEXT="Example" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1574790443276" COLOR="#999900">
 <icon BUILTIN="edit"/>
 <edge COLOR="#00ff00"/>
 <font SIZE="11" BOLD="true"/>
@@ -123,26 +124,26 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1574789881859">
+<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1574790422306" COLOR="#990000">
 <icon BUILTIN="attach"/>
 <edge COLOR="#00007c"/>
 <font SIZE="11" BOLD="true"/>
-<node TEXT="did key spec" ID="ID_674273555" CREATED="1574615156865" MODIFIED="1574782546299" LINK="https://digitalbazaar.github.io/did-method-key/"/>
-<node TEXT="did core" ID="ID_1309388462" CREATED="1574615252347" MODIFIED="1574615258291" LINK="https://w3c.github.io/did-core/"/>
-<node TEXT="demo" ID="ID_863930071" CREATED="1574615507827" MODIFIED="1574615512173" LINK="https://did-key.web.app/"/>
-<node TEXT="Linked Data Proofs" ID="ID_320437573" CREATED="1574630005169" MODIFIED="1574630028486" LINK="https://w3c-dvcg.github.io/ld-proofs/#proof-purpose"/>
-<node TEXT="LD Cryptosuite registry" ID="ID_570765293" CREATED="1574781938712" MODIFIED="1574781949063" LINK="https://w3c-ccg.github.io/ld-cryptosuite-registry/"/>
-<node TEXT="vc data model" ID="ID_1387965929" CREATED="1574782225205" MODIFIED="1574782231487" LINK="https://www.w3.org/TR/vc-data-model/"/>
-<node TEXT="security ontology" ID="ID_1879313086" CREATED="1574615735358" MODIFIED="1574615792323">
-<node TEXT="github" ID="ID_1802414645" CREATED="1574615757154" MODIFIED="1574615762248" LINK="https://github.com/w3c-dvcg/security-vocab/blob/master/contexts/security-v2.jsonld#L39"/>
-<node TEXT="npm" ID="ID_689455920" CREATED="1574615779364" MODIFIED="1574615786303" LINK="https://www.npmjs.com/package/security-context"/>
+<node TEXT="did key spec" ID="ID_674273555" CREATED="1574615156865" MODIFIED="1574790422311" LINK="https://digitalbazaar.github.io/did-method-key/" COLOR="#990000"/>
+<node TEXT="did core" ID="ID_1309388462" CREATED="1574615252347" MODIFIED="1574790422312" LINK="https://w3c.github.io/did-core/" COLOR="#990000"/>
+<node TEXT="demo" ID="ID_863930071" CREATED="1574615507827" MODIFIED="1574790422314" LINK="https://did-key.web.app/" COLOR="#990000"/>
+<node TEXT="Linked Data Proofs" ID="ID_320437573" CREATED="1574630005169" MODIFIED="1574790422315" LINK="https://w3c-dvcg.github.io/ld-proofs/#proof-purpose" COLOR="#990000"/>
+<node TEXT="LD Cryptosuite registry" ID="ID_570765293" CREATED="1574781938712" MODIFIED="1574790422316" LINK="https://w3c-ccg.github.io/ld-cryptosuite-registry/" COLOR="#990000"/>
+<node TEXT="vc data model" ID="ID_1387965929" CREATED="1574782225205" MODIFIED="1574790422316" LINK="https://www.w3.org/TR/vc-data-model/" COLOR="#990000"/>
+<node TEXT="security ontology" ID="ID_1879313086" CREATED="1574615735358" MODIFIED="1574790422316" COLOR="#990000">
+<node TEXT="github" ID="ID_1802414645" CREATED="1574615757154" MODIFIED="1574790422318" LINK="https://github.com/w3c-dvcg/security-vocab/blob/master/contexts/security-v2.jsonld#L39" COLOR="#990000"/>
+<node TEXT="npm" ID="ID_689455920" CREATED="1574615779364" MODIFIED="1574790422318" LINK="https://www.npmjs.com/package/security-context" COLOR="#990000"/>
 </node>
-<node TEXT="test" ID="ID_1984008598" CREATED="1574615380319" MODIFIED="1574615383091" LINK="https://github.com/digitalbazaar/did-method-key-js/blob/master/tests/driver.spec.js"/>
-<node TEXT="implementations" ID="ID_266162917" CREATED="1574615129736" MODIFIED="1574615467822">
-<node TEXT="Transmute" ID="ID_699814464" CREATED="1574615427351" MODIFIED="1574615432833" LINK="https://github.com/transmute-industries/did-key"/>
-<node TEXT="Digital Bazaar" ID="ID_20457538" CREATED="1574615129736" MODIFIED="1574615451098" LINK="https://github.com/digitalbazaar/did-method-key-js#table-of-contents"/>
+<node TEXT="test" ID="ID_1984008598" CREATED="1574615380319" MODIFIED="1574790422318" LINK="https://github.com/digitalbazaar/did-method-key-js/blob/master/tests/driver.spec.js" COLOR="#990000"/>
+<node TEXT="implementations" ID="ID_266162917" CREATED="1574615129736" MODIFIED="1574790422318" COLOR="#990000">
+<node TEXT="Transmute" ID="ID_699814464" CREATED="1574615427351" MODIFIED="1574790422318" LINK="https://github.com/transmute-industries/did-key" COLOR="#990000"/>
+<node TEXT="Digital Bazaar" ID="ID_20457538" CREATED="1574615129736" MODIFIED="1574790422319" LINK="https://github.com/digitalbazaar/did-method-key-js#table-of-contents" COLOR="#990000"/>
 </node>
-<node TEXT="Authorization Capabilities" ID="ID_1650944418" CREATED="1574788148662" MODIFIED="1574788159914" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology"/>
+<node TEXT="Authorization Capabilities" ID="ID_1650944418" CREATED="1574788148662" MODIFIED="1574790422319" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology" COLOR="#990000"/>
 </node>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1574789886467">
 <icon BUILTIN="folder"/>
