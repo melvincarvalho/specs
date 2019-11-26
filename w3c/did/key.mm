@@ -76,7 +76,8 @@
 <font BOLD="false"/>
 </node>
 </node>
-<node TEXT="Terms" POSITION="right" ID="ID_45642208" CREATED="1574615830873" MODIFIED="1574789859450" COLOR="#00b439">
+<node TEXT="Terms" POSITION="right" ID="ID_45642208" CREATED="1574615830873" MODIFIED="1574790320436" COLOR="#00b439">
+<icon BUILTIN="list"/>
 <edge COLOR="#7c7c00"/>
 <font SIZE="11" BOLD="true"/>
 <node TEXT="controller" ID="ID_29050614" CREATED="1574615833469" MODIFIED="1574789871825" LINK="https://www.w3.org/TR/did-core/#terminology" COLOR="#00b439">
@@ -99,8 +100,8 @@
 <node TEXT="The keyAgreement key is a Curve25519 public key (suitable for Diffie-Hellman key exchange) that is deterministically derived from the source Ed25519 key, using ed2curve-js." ID="ID_1618462584" CREATED="1574781993446" MODIFIED="1574789839618" COLOR="#00b439"/>
 </node>
 </node>
-<node TEXT="Example" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1574789125525" COLOR="#660000">
-<icon BUILTIN="list"/>
+<node TEXT="Example" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1574790341584" COLOR="#660000">
+<icon BUILTIN="edit"/>
 <edge COLOR="#00ff00"/>
 <font SIZE="11" BOLD="true"/>
 <node TEXT="did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH" FOLDED="true" ID="ID_985403617" CREATED="1574530820944" MODIFIED="1574530820944">
