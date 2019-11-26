@@ -213,12 +213,18 @@
                     "edge": {
                         "@_COLOR": "#0000ff"
                     },
-                    "node": {
-                        "@_TEXT": "the did:key method",
-                        "@_ID": "ID_1311877564",
-                        "@_CREATED": 1574530845000,
-                        "@_MODIFIED": 1574615222174,
-                        "node": {
+                    "node": [
+                        {
+                            "@_TEXT": "This specification describes a non-registry based DID Method based on expanding a cryptographic public key into a DID Document. This approach provides the simplest possible implementation of a DID Method",
+                            "@_ID": "ID_183149302",
+                            "@_CREATED": 1574789488614,
+                            "@_MODIFIED": 1574789631412,
+                            "@_COLOR": "#3333ff",
+                            "font": {
+                                "@_BOLD": false
+                            }
+                        },
+                        {
                             "@_TEXT": "Demo",
                             "@_LOCALIZED_STYLE_REF": "AutomaticLayout.level,2",
                             "@_ID": "ID_1464250735",
@@ -227,9 +233,17 @@
                             "@_LINK": "https://did-key.web.app/",
                             "font": {
                                 "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "the did:key method",
+                                "@_ID": "ID_1311877564",
+                                "@_CREATED": 1574530845000,
+                                "@_MODIFIED": 1574789655981,
+                                "@_LINK": "https://digitalbazaar.github.io/did-method-key/",
+                                "@_COLOR": "#009900"
                             }
                         }
-                    }
+                    ]
                 },
                 {
                     "@_TEXT": "Terms",
@@ -285,7 +299,8 @@
                             "@_TEXT": "keyAgreement",
                             "@_ID": "ID_1908240927",
                             "@_CREATED": 1574615894254,
-                            "@_MODIFIED": 1574615897488,
+                            "@_MODIFIED": 1574789437709,
+                            "@_LINK": "https://github.com/digitalbazaar/did-method-key-js",
                             "node": {
                                 "@_TEXT": "The keyAgreement key is a Curve25519 public key (suitable for Diffie-Hellman key exchange) that is deterministically derived from the source Ed25519 key, using ed2curve-js.",
                                 "@_ID": "ID_1618462584",

@@ -1,4 +1,8 @@
 <#ID_1226961462> <urn:string:@_TEXT> """Summary""" .
+<#ID_183149302> <urn:string:@_TEXT> """This specification describes a non-registry based DID Method based on expanding a cryptographic public key into a DID Document. This approach provides the simplest possible implementation of a DID Method""" .
+<#ID_183149302> <urn:string:child> <ID_183149302> .
+<#ID_1464250735> <urn:string:@_TEXT> """Demo""" .
+<#ID_1464250735> <urn:string:child> <ID_1464250735> .
 <#ID_45642208> <urn:string:@_TEXT> """Terms""" .
 <#ID_29050614> <urn:string:@_TEXT> """controller""" .
 <#ID_29050614> <urn:string:child> <ID_29050614> .

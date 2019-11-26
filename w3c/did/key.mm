@@ -69,10 +69,12 @@
 <icon BUILTIN="wizard"/>
 <font SIZE="11" BOLD="true"/>
 <edge COLOR="#0000ff"/>
-<node TEXT="the did:key method" ID="ID_1311877564" CREATED="1574530845000" MODIFIED="1574615222174">
+<node TEXT="This specification describes a non-registry based DID Method based on expanding a cryptographic public key into a DID Document. This approach provides the simplest possible implementation of a DID Method" ID="ID_183149302" CREATED="1574789488614" MODIFIED="1574789631412" COLOR="#3333ff">
+<font BOLD="false"/>
+</node>
 <node TEXT="Demo" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1464250735" CREATED="1574789274639" MODIFIED="1574789303054" LINK="https://did-key.web.app/">
 <font BOLD="true"/>
-</node>
+<node TEXT="the did:key method" ID="ID_1311877564" CREATED="1574530845000" MODIFIED="1574789655981" LINK="https://digitalbazaar.github.io/did-method-key/" COLOR="#009900"/>
 </node>
 </node>
 <node TEXT="Terms" POSITION="right" ID="ID_45642208" CREATED="1574615830873" MODIFIED="1574789115380" COLOR="#336600">
@@ -83,7 +85,7 @@
 <node TEXT="assertionMethod" ID="ID_1725784188" CREATED="1574615874000" MODIFIED="1574788936507" LINK="https://w3c.github.io/vc-data-model/#proofs-signatures-0"/>
 <node TEXT="capabilityDelegation" ID="ID_370889307" CREATED="1574615879526" MODIFIED="1574788955114" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology"/>
 <node TEXT="capabilityInvocation" ID="ID_510883454" CREATED="1574615886031" MODIFIED="1574788959241" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology"/>
-<node TEXT="keyAgreement" ID="ID_1908240927" CREATED="1574615894254" MODIFIED="1574615897488">
+<node TEXT="keyAgreement" ID="ID_1908240927" CREATED="1574615894254" MODIFIED="1574789437709" LINK="https://github.com/digitalbazaar/did-method-key-js">
 <node TEXT="The keyAgreement key is a Curve25519 public key (suitable for Diffie-Hellman key exchange) that is deterministically derived from the source Ed25519 key, using ed2curve-js." ID="ID_1618462584" CREATED="1574781993446" MODIFIED="1574781993446"/>
 </node>
 </node>
