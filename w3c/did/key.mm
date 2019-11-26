@@ -64,29 +64,39 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Summary" POSITION="right" ID="ID_1226961462" CREATED="1570979963389" MODIFIED="1570980209554" COLOR="#3333ff">
+<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Summary" POSITION="right" ID="ID_1226961462" CREATED="1570979963389" MODIFIED="1574789737206" LINK="https://digitalbazaar.github.io/did-method-key/" COLOR="#3333ff">
 <icon BUILTIN="wizard"/>
 <font SIZE="11" BOLD="true"/>
 <edge COLOR="#0000ff"/>
+<node TEXT="Demo" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1464250735" CREATED="1574789274639" MODIFIED="1574789903794" LINK="https://did-key.web.app/" COLOR="#00b439">
+<font SIZE="15" BOLD="true"/>
+</node>
 <node TEXT="This specification describes a non-registry based DID Method based on expanding a cryptographic public key into a DID Document. This approach provides the simplest possible implementation of a DID Method" ID="ID_183149302" CREATED="1574789488614" MODIFIED="1574789631412" COLOR="#3333ff">
 <font BOLD="false"/>
 </node>
-<node TEXT="Demo" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1464250735" CREATED="1574789274639" MODIFIED="1574789303054" LINK="https://did-key.web.app/">
-<font BOLD="true"/>
-<node TEXT="the did:key method" ID="ID_1311877564" CREATED="1574530845000" MODIFIED="1574789655981" LINK="https://digitalbazaar.github.io/did-method-key/" COLOR="#009900"/>
 </node>
-</node>
-<node TEXT="Terms" POSITION="right" ID="ID_45642208" CREATED="1574615830873" MODIFIED="1574789115380" COLOR="#336600">
-<edge COLOR="#00007c"/>
+<node TEXT="Terms" POSITION="right" ID="ID_45642208" CREATED="1574615830873" MODIFIED="1574789859450" COLOR="#00b439">
+<edge COLOR="#7c7c00"/>
 <font SIZE="11" BOLD="true"/>
-<node TEXT="controller" ID="ID_29050614" CREATED="1574615833469" MODIFIED="1574789033858" LINK="https://www.w3.org/TR/did-core/#terminology"/>
-<node TEXT="authentication" ID="ID_1206287320" CREATED="1574615869340" MODIFIED="1574789056708" LINK="https://www.w3.org/TR/did-core/#authentication"/>
-<node TEXT="assertionMethod" ID="ID_1725784188" CREATED="1574615874000" MODIFIED="1574788936507" LINK="https://w3c.github.io/vc-data-model/#proofs-signatures-0"/>
-<node TEXT="capabilityDelegation" ID="ID_370889307" CREATED="1574615879526" MODIFIED="1574788955114" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology"/>
-<node TEXT="capabilityInvocation" ID="ID_510883454" CREATED="1574615886031" MODIFIED="1574788959241" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology"/>
-<node TEXT="keyAgreement" ID="ID_1908240927" CREATED="1574615894254" MODIFIED="1574789437709" LINK="https://github.com/digitalbazaar/did-method-key-js">
-<node TEXT="The keyAgreement key is a Curve25519 public key (suitable for Diffie-Hellman key exchange) that is deterministically derived from the source Ed25519 key, using ed2curve-js." ID="ID_1618462584" CREATED="1574781993446" MODIFIED="1574781993446"/>
+<node TEXT="controller" ID="ID_29050614" CREATED="1574615833469" MODIFIED="1574789871825" LINK="https://www.w3.org/TR/did-core/#terminology" COLOR="#00b439">
+<font BOLD="true"/>
+</node>
+<node TEXT="authentication" ID="ID_1206287320" CREATED="1574615869340" MODIFIED="1574789871831" LINK="https://www.w3.org/TR/did-core/#authentication" COLOR="#00b439">
+<font BOLD="true"/>
+</node>
+<node TEXT="assertionMethod" ID="ID_1725784188" CREATED="1574615874000" MODIFIED="1574789871831" LINK="https://w3c.github.io/vc-data-model/#proofs-signatures-0" COLOR="#00b439">
+<font BOLD="true"/>
+</node>
+<node TEXT="capabilityDelegation" ID="ID_370889307" CREATED="1574615879526" MODIFIED="1574789871832" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology" COLOR="#00b439">
+<font BOLD="true"/>
+</node>
+<node TEXT="capabilityInvocation" ID="ID_510883454" CREATED="1574615886031" MODIFIED="1574789871832" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology" COLOR="#00b439">
+<font BOLD="true"/>
+</node>
+<node TEXT="keyAgreement" ID="ID_1908240927" CREATED="1574615894254" MODIFIED="1574789871832" LINK="https://github.com/digitalbazaar/did-method-key-js" COLOR="#00b439">
+<font BOLD="true"/>
+<node TEXT="The keyAgreement key is a Curve25519 public key (suitable for Diffie-Hellman key exchange) that is deterministically derived from the source Ed25519 key, using ed2curve-js." ID="ID_1618462584" CREATED="1574781993446" MODIFIED="1574789839618" COLOR="#00b439"/>
 </node>
 </node>
 <node TEXT="Example" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1574789125525" COLOR="#660000">
@@ -112,9 +122,10 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
+<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1574789881859">
 <icon BUILTIN="attach"/>
 <edge COLOR="#00007c"/>
+<font SIZE="11" BOLD="true"/>
 <node TEXT="did key spec" ID="ID_674273555" CREATED="1574615156865" MODIFIED="1574782546299" LINK="https://digitalbazaar.github.io/did-method-key/"/>
 <node TEXT="did core" ID="ID_1309388462" CREATED="1574615252347" MODIFIED="1574615258291" LINK="https://w3c.github.io/did-core/"/>
 <node TEXT="demo" ID="ID_863930071" CREATED="1574615507827" MODIFIED="1574615512173" LINK="https://did-key.web.app/"/>
@@ -132,9 +143,10 @@
 </node>
 <node TEXT="Authorization Capabilities" ID="ID_1650944418" CREATED="1574788148662" MODIFIED="1574788159914" LINK="https://w3c-ccg.github.io/zcap-ld/#terminology"/>
 </node>
-<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
+<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1574789886467">
 <icon BUILTIN="folder"/>
 <edge COLOR="#ff00ff"/>
+<font SIZE="11" BOLD="true"/>
 <node TEXT="mailing list" FOLDED="true" ID="ID_307060603" CREATED="1574596268933" MODIFIED="1574596274510" LINK="https://lists.w3.org/Archives/Public/public-credentials/2019Nov/thread.html">
 <node TEXT="Discussion" ID="ID_387619455" CREATED="1574595946140" MODIFIED="1574789080211">
 <node TEXT="Mailing LIst" ID="ID_142448183" CREATED="1574596208921" MODIFIED="1574615277987">
@@ -148,14 +160,16 @@
 </node>
 </node>
 </node>
-<node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
+<node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1574789886471">
 <icon BUILTIN="hashtag"/>
 <edge COLOR="#007c00"/>
+<font SIZE="11" BOLD="true"/>
 <node TEXT="#did" ID="ID_1467263929" CREATED="1574782581637" MODIFIED="1574782584378"/>
 </node>
-<node TEXT="Concerns" FOLDED="true" POSITION="left" ID="ID_1414960960" CREATED="1570968728177" MODIFIED="1574530860823">
+<node TEXT="Concerns" FOLDED="true" POSITION="left" ID="ID_1414960960" CREATED="1570968728177" MODIFIED="1574789886472">
 <icon BUILTIN="yes"/>
 <edge COLOR="#ff0000"/>
+<font SIZE="11" BOLD="true"/>
 <node TEXT="claims" ID="ID_1039236328" CREATED="1574530989571" MODIFIED="1574531029382">
 <node TEXT="simplest possible implementation of a DID Method" ID="ID_1634354247" CREATED="1574530997703" MODIFIED="1574626443377">
 <font BOLD="false"/>
