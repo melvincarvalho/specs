@@ -9,4 +9,4 @@
 [**Demo →**](https://melvincarvalho.github.io/specs/index.html)
 
 
-![solid](https://raw.githubusercontent.com/melvincarvalho/tech/gh-pages/index.html_files/image.png)
+![solid](https://raw.githubusercontent.com/melvincarvalho/specs/gh-pages/index.html_files/image.png)
